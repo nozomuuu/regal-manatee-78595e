@@ -1,0 +1,368 @@
+git status
+git checkout --ours .
+git add .
+git rebase --continue
+git push origin main
+git rebase --continue
+git push origin main
+git rebase --abort
+git add .
+git commit -m "Resolve conflicts and continue work"
+git pull origin main --rebase
+git push origin main
+rm -rf .git/rebase-merge
+git rebase --abort
+git rebase --continue
+git push origin main
+brew install git-lfs
+git lfs install
+git push origin main
+git pull origin main --rebase
+git push origin main
+git push origin main --force
+git remote -v
+git remote set-url origin https://https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit fetch origin
+git reset --hard origin/main
+git add .
+git commit -m "Fix and update code changes"
+git status
+git log
+git checkout -b fix-branch
+.bash_history
+Library/
+.Trash/
+git add .
+git commit -m "Add untracked files"
+brew install git-lfs
+git lfs install
+git submodule add <url> Desktop/card-pack-app
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install git-lfs
+git lfs install
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/shizhongxiwang/.bash_profile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew install git-lfs
+git lfs install
+find . -type f -exec du -h {} + | sort -rh | head -n 20
+git lfs track "*.clip"
+git lfs track "*.psp"
+git lfs track "*.zip"
+git add .gitattributes
+git add .
+git commit -m "Add large files to LFS tracking"
+git push origin fix-branch
+git add .gitattributes
+git add .
+git commit -m "Add large files to LFS tracking"
+git push origin fix-branch
+git add otakarakutasealwafercollection/
+git add .gitattributes
+git commit -m "Add large files to LFS tracking"
+git push origin fix-branch
+git remote set-url origin https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git prune
+git push origin fix-branch
+git status
+git add .
+git status
+echo "
+.bash_history
+.bash_profile
+.gitconfig
+.npm/
+Desktop/
+Downloads/
+Library/
+" >> .gitignore
+git add .gitignore
+git commit -m "Update .gitignore to ignore unnecessary files"
+git push origin fix-branch
+git status
+git config --global user.name "nozomuuu"
+git config --global user.email "nzm1617@gmail.com"
+ls -a
+touch .gitmodules
+[submodule "otakarakutasealwafercollection"]
+    path = otakarakutasealwafercollection
+    url = https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git add .gitmodules
+git commit -m "Add or update .gitmodules for submodule"
+git push origin fix-branch
+nano .gitmodules
+nano .gitmodules
+git add .gitmodules
+git commit -m "Update .gitmodules with submodule URL"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git status
+git add .
+git commit -m "修正内容の説明をここに記入"
+git push origin fix-branch
+git add -A
+git commit -m "説明をここに記入"
+git rm -r --cached .
+git add .
+git commit -m "キャッシュのクリア後のコミット"
+git push origin fix-branch
+git clean -fd
+git diff
+cd otakarakutasealwafercollection
+git status
+git add .
+git commit -m "コミットメッセージを記入"
+cd ..
+git add otakarakutasealwafercollection
+git commit -m "Update submodule to latest commit"
+git push origin fix-branch
+cat .gitmodules
+cat .gitmodules
+git submodule init
+git submodule update
+git add .gitmodules
+git commit -m "Fix submodule URL"
+git push origin fix-branch
+git add otakarakutasealwafercollection
+git commit -m "Fix submodule URL and update"
+git push origin fix-branch
+git add otakarakutasealwafercollection
+git status
+git submodule status
+git add -f otakarakutasealwafercollection
+git status
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git commit -m "Update submodule otakarakutasealwafercollection"
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git status
+git commit -m "Update submodule otakarakutasealwafercollection"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git status
+git add .
+git commit -m "Update submodule"
+cd ..
+git add otakarakutasealwafercollection
+git commit -m "Update submodule reference"
+git push origin fix-branch
+git fetch origin
+git branch -r
+git checkout fix-branch
+git pull origin fix-branch
+git status
+echo ".lesshst" >> .gitignore
+git add .gitignore
+git commit -m "Ignore system-specific files"
+git push origin fix-branch
+# コメントなど、無関係な変更を追加
+echo "# Trigger rebuild" >> README.md
+# 変更をGitに追加
+git add README.md
+# コミット
+git commit -m "Trigger rebuild"
+# 変更をリモートにプッシュ
+git push origin fix-branch
+git branch -r
+git fetch origin pull/1/head:fix-branch
+git pull origin fix-branch
+git checkout -b temp-branch
+git fetch origin pull/1/head:fix-branch
+git checkout fix-branch
+git branch -d temp-branch
+git push origin fix-branch
+git add .
+git commit -m "Update sticker images"
+git push origin fix-branch
+git add .
+git commit -m "Update sticker images and fix SE issue for mobile"
+git push origin fix-branch
+git add .
+git add .
+git commit -m "Update sticker images and fix SE issue for mobile"
+git add .
+git commit -m "Add or update sticker images"
+git push origin fix-branch
+git add otakarakutasealwafercollection
+git commit -m "Update submodule and sticker images"
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git commit -m "Update submodule and sticker images"
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git commit -m "Force update of submodule and sticker images"
+git push origin fix-branch
+git add otakarakutasealwafercollection -f
+git commit -m "Force update of submodule"
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --force
+git add otakarakutasealwafercollection
+git commit -m "Force update of submodule and sticker images"
+git push origin fix-branch
+git add .
+git commit -m "Add or update sticker images"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker image display, add collection list, and adjust SE for mobile"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git status
+git add .
+git commit -m "Update sticker images in submodule"
+cd ..
+git add otakarakutasealwafercollection
+git commit -m "Update submodule reference"
+git push origin fix-branch
+git gc --prune=now
+git fsck
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --recursive
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --recursive
+git submodule update --remote --merge
+git add otakarakutasealwafercollection
+git commit -m "Update submodule reference"
+git push origin fix-branch
+git add webpack.config.js
+git commit -m "webpack.config.jsの構文エラーを修正"
+git push origin fix-branch
+git add webpack.config.js
+git commit -m "webpack.config.jsの構文エラーを修正"
+git push origin fix-branch
+git push origin fix-branch
+npm install style-loader css-loader file-loader babel-loader --save-dev
+git commit -m "Add webpack.config.js and loaders"
+git push origin fix-branch
+git add webpack.config.js
+git add .
+git commit -m "Add webpack.config.js and necessary loaders"
+npm audit fix --force
+npm audit fix
+git add .
+git commit -m "Fix npm vulnerabilities"
+git push origin fix-branch
+git fsck
+git fsck
+git fetch --all
+git push origin fix-branch
+git rev-list --objects --all | grep 425518a066b38d8489116505a378abd28f7bd6b8
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch node_modules/public-encrypt/test/test_rsa_privkey.pem" --prune-empty --tag-name-filter cat -- --all
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+git push origin --force --all
+git pull origin fix-branch
+git push origin fix-branch
+git ls-remote origin pull/1/head
+git ls-remote origin pull/1/headgit branch
+git branch
+git ls-remote origin pull/1/head
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+npm audit fix --force
+cat .gitmodules
+git submodule sync
+git submodule update --init --recursive
+git submodule sync
+git submodule update --init --recursive
+git config --file .gitmodules --get submodule.otakarakutasealwafercollection.url
+git submodule deinit -f -- otakarakutasealwafercollection
+git submodule update --init --recursive
+git add .gitmodules otakarakutasealwafercollection
+git commit -m "Update submodule"
+git push origin fix-branch
+[submodule "otakarakutasealwafercollection"]
+  path = otakarakutasealwafercollection
+  url = https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+cat .gitmodules
+git submodule sync
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git log --oneline
+git config submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git add .gitmodules
+git commit -m "Update submodule URL to SSH"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git fetch
+git log --oneline
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --recursive
+git add .gitmodules otakarakutasealwafercollection
+git commit -m "Fix submodule path and update"
+git push origin fix-branch
+git add .
+git commit -m "Your commit message"
+git push origin fix-branch
+git submodule sync
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch
+git log --oneline
+git submodule update --remote --recursive
+git submodule deinit -f .
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch origin
+git checkout 27e02638
+git add otakarakutasealwafercollection
+git commit -m "Fix submodule reference"
+git push origin fix-branch
+git branch
+git checkout -b fix-branch
+git add .
+git commit -m "Fix submodule reference"
+git push origin fix-branch
+git submodule deinit -f .
+git submodule update --init --recursive
+git submodule sync
+git submodule update --init --recursive
+cat .gitmodules
+git submodule deinit -f .
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git log --oneline
+git submodule deinit -f .
+git submodule update --init --recursive
+nano .gitmodules
+git add .gitmodules
+git commit -m "Update submodule URL"
+git push origin fix-branch
+rm .gitmodulesy
+git add .gitmodules
+git commit -m "Update submodule URL"
+git push origin fix-branch
+git submodule update --remote --recursive
+cat .gitmodules
+git submodule deinit -f .
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch origin
+git checkout 27e02638  # 問題のコミットIDに手動で切り替え
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+cat .gitmodules
+cat .gitmodules
+cat .gitmodules
+git submodule sync
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch origin
+git checkout 27e02638  # 失敗しているコミットIDに切り替え
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Update submodule URL to SSH"
+git push origin fix-branch

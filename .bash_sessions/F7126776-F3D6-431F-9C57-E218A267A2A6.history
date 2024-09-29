@@ -1,0 +1,509 @@
+git add .
+git commit -m "WIP: Saving local changes before rebase"
+git pull origin fix-branch --rebase
+git status
+rm -rf .git
+git init
+git remote add origin https://github.com/username/otakarakutasealwafercollection.git
+git add .
+git commit -m "再コミット"
+git push origin fix-branch
+git remote -v
+git remote -v
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git commit -m "Resolved merge conflicts"
+git push origin fix-branch
+git add .
+git commit -m "Committing local changes"
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git push origin fix-branch
+git submodule deinit -f --all
+git submodule update --init --recursive
+git add .
+git commit -m "Updated submodules"
+git push origin fix-branch
+git submodule update --init --recursive
+git submodule deinit -f --all
+git rm -r path/to/submodule
+git commit -m "Removed submodule"
+git push origin fix-branch
+git submodule update --init --recursive
+git submodule deinit -f --all
+git submodule deinit -f --all
+git rm -r path/to/submodule
+git rm -r otakarakutasealwafercollection
+rm .gitmodules
+nano .git/config
+git add .
+git commit -m "Removed submodule"
+git push origin fix-branch
+git submodule add https://github.com/nozomu/otakarakutasealwafercollection.git otakarakutasealwafercollection
+git submodule init
+git submodule update
+git add .
+git commit -m "Re-added submodule"
+git push origin fix-branch
+git submodule deinit -f --all
+git rm -r --cached path/to/submodule  # path/to/submoduleはサブモジュールのパスに置き換えてください
+git commit -m "Removed submodule"
+git push origin fix-branch
+ls -R # これでプロジェクト内のファイル全体をリスト表示
+find . -name "index.html"
+ls -R | grep "index.html"
+git checkout <commit-id> -- path/to/file
+npm run build
+git checkout <commit-id> -- path/to/file
+4$4npm run build
+npm install react react-dom
+npm install axios react-router-dom
+npm audit fix --force
+npm cache clean --force
+npm audit fix --force
+sudo chown -R $USER:$(id -gn $USER) /Users/shizhongxiwang/.npm
+sudo chown -R $USER:$(id -gn $USER) /Users/shizhongxiwang/.npm
+npm cache clean --force
+npm audit fix --force
+npm audit fix --force
+npm audit
+npm audit fix --force
+npm install serialize-javascript@最新の安全なバージョン
+npm install serialize-javascript@5.0.1
+npm install serialize-javascript@^5.0.1
+npm install serialize-javascript
+npm run build
+npm update
+# node_modulesフォルダとpackage-lock.jsonファイルを削除
+rm -rf node_modules
+rm package-lock.json
+# `babel-loader`の依存関係を削除
+npm uninstall babel-loader
+# 必要なパッケージを再インストール
+npm install
+npm run build
+SKIP_PREFLIGHT_CHECK=true
+# node_modulesフォルダとpackage-lock.jsonを削除
+rm -rf node_modules
+rm package-lock.json
+# 依存関係を再インストール
+npm install
+SKIP_PREFLIGHT_CHECK=true
+npm install -g npm-check-updates
+ncu -u
+npm install
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack
+npm uninstall webpack --save-dev
+npm install
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack
+npm uninstall webpack --save-dev
+npm install
+SKIP_PREFLIGHT_CHECK=true
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack --save
+npm uninstall webpack --save-dev
+npm install
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack
+npm install
+echo "SKIP_PREFLIGHT_CHECK=true" >> .env
+npm run build
+npm run build
+npm run build
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+reportWebVitals();
+npm run build
+npm run build
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+reportWebVitals();
+{   "name": "my-app",;   "version": "1.0.0",;   "main": "index.js",;   "scripts": {;     "start": "react-scripts start",;     "build": "react-scripts build",;     "test": "react-scripts test",;     "eject": "react-scripts eject";   }
+}
+npm init
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+npm run build
+npm run build
+npm run build
+npm run build
+＄
+npm run build
+npm cache clean --force
+rm -rf node_modules
+npm install
+npm run build
+npm start
+rm -rf node_modules
+rm package-lock.json
+npm install
+npm run build
+npm run build
+npm install react-scripts --save
+npm run build
+npm audit fix --force
+npm audit fix --force
+npm install yargs-parser@latest --save
+npm audit
+rm package-lock.json
+rm -rf node_modules
+npm install
+npm run build
+ls src
+touch src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';  // Appコンポーネントのインポート（すでに作成されていることを前提）
+ReactDOM.render(<App />, document.getElementById('root'));
+npm audit fix --force
+npm run build
+mkdir src
+touch src/index.js
+npm install react react-dom
+npm run build
+npm run build
+ls public/index.html
+npm run build
+npm run build --verbose
+npm run build
+npm run build
+npm run build
+ls public/index.html
+ls public/index.html
+cd path/to/your/project
+cd ~/Desktop/card-pack-app
+ls
+touch netlify.toml
+vim netlify.toml
+touch netlify.toml
+code netlify.toml
+cd path/to/your/project
+cd ~/Desktop/card-pack-app
+ls
+code netlify.toml
+npm run build
+ls build/index.html
+npm run build
+npm run build
+npm run build
+npm run build
+ls build/index.html
+ls build/index.html
+npm run build
+ls build/index.html
+ls public/index.html
+npm run build
+ls build/index.html
+npm run build
+ls build/index.html
+ls public/index.html
+npm install -g serve
+serve -s build
+sudo npm install -g serve
+npm install serve
+npx serve -s build
+ls build
+npx serve -s build
+npx serve -s build
+lsof -i :3000
+npx serve -s build
+npm start
+npm start
+ls build
+npx serve -s build
+npm start
+npm run build
+npx serve -s public
+npm run build
+npx serve -s build
+npm run build
+npx serve -s build
+npm run build
+npx serve -s build
+npx serve -s public
+ls build
+npm run build
+ls build
+npx serve -s build
+npm run build
+npx serve -s build
+npm run build
+npx serve -s build
+npm run build
+ls build
+ls build
+rm -rf node_modules
+rm -rf build
+npm install
+npm run build
+npm run build
+node -v
+npm -v
+mkdir my-new-app
+cd my-new-app
+npx create-react-app .
+npm start
+git branch
+git checkout main
+git push origin main
+git remote set-url origin https://github.com/ユーザー名/リポジトリ名.git
+git push -u origin main
+https://github.com/your-username/your-repo-name.git
+git remote set-url origin https://github.com/nozomuuu/otakarakuta-sealwafercollection.gitgit pull origin main --rebase
+git push -u origin main
+git remote set-url origin https://github.com/ユーザー名/リポジトリ名.git
+git remote set-url origin https://github.com/nozomuuu/otakarakuta-sealwafercollection.gitgit push -u origin main
+git remote set-url origin https://github.com/nozomuuu/otakarakuta-sealwafercollection.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+git remote set-url origin https://github.com/nozomuuu/otakarakuta-sealwafercollection.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+git lfs install
+git lfs track "*.png" # 大きなファイルを指定
+git add .gitattributes
+git add .
+git commit -m "Add large files to LFS"
+git push origin main
+git lfs install
+git lfs track "*.png" # 大きなファイルを指定
+git add .gitattributes
+git add .
+git commit -m "Add large files to LFS"
+git push origin main
+git lfs install
+git lfs track "*.png" # 大きなファイルを指定
+git add .gitattributes
+git add .
+git commit -m "Add large files to LFS"
+git push origin main
+echo "*.png filter=lfs diff=lfs merge=lfs -text" > .gitattributes
+git add .gitattributes
+git commit -m "Correct .gitattributes settings"
+git push origin main
+echo "*.png filter=lfs diff=lfs merge=lfs -text" > .gitattributes
+git add .gitattributes
+git commit -m "Correct .gitattributes settings"
+git push origin main
+git config http.postBuffer 524288000  # バッファサイズを500MBに増やす
+git push origin main
+git lfs install
+git lfs track "*.png"  # 必要な大きなファイル形式を追跡
+git add .gitattributes  # .gitattributesファイルを追加
+git commit -m "Add large files to LFS"
+git push origin main
+git rm <大きなファイル>
+git commit -m "Remove large files temporarily"
+git push origin main
+git rm --cached <大きなファイル名>
+git rm --cached public/images/largefile.png
+git commit -m "Remove large files temporarily"
+git push origin main
+ls public/images/
+git rm --cached public/images/wafer.png
+git commit -m "Remove wafer.png file from Git cache"
+git push origin main
+git reflog expire --expire=now --all
+git gc --prune=now
+git push origin main
+git rev-list --objects --all | grep $(git rev-list --max-parents=0 HEAD) | sort -k 2 > bigfiles.txt
+git lfs track "*.png"  # .pngファイルをLFSで管理する例
+git add .gitattributes
+git add <大きなファイル>
+git commit -m "Add large files to LFS"
+git push origin main
+git lfs install
+git lfs track "*.png"  # 例: .png ファイルを追跡
+git lfs track "*.jpg"  # 例: .jpg ファイルを追跡
+git add .gitattributes  # 追跡するファイル形式の情報が記載された .gitattributes をステージに追加
+git add public/images/*.png  # public/images フォルダ内のすべての PNG ファイルをステージに追加
+git add public/images/*.jpg  # public/images フォルダ内のすべての JPG ファイルをステージに追加
+git commit -m "Add large PNG and JPG files to LFS"
+git push origin main
+git lfs ls-files
+git rm --cached public/images/largefile.png
+git commit -m "Remove large PNG file"
+git push origin main
+git lfs install
+git lfs track "*.png"
+git lfs track "*.jpg"
+git add .gitattributes
+git add public/images/*.png
+git add public/images/*.jpg
+git commit -m "Track large image files with LFS"
+git rm --cached public/images/largefile.png
+git rm --cached public/images/largefile.jpg
+git commit -m "Remove large files from Git cache"
+git push origin main
+git status
+git lfs ls-files
+build/
+node_modules/
+*.log
+*.tmp
+git add public/images/*.jpg
+git commit -m "Add JPG images to LFS"
+git push origin main
+git rm --cached "build\343\201\247\343\201\231\images\*.jpg"  # buildフォルダ内の画像ファイルを削除
+git commit -m "Remove large JPG files temporarily from build folder"
+git push origin main
+git lfs ls-files
+git lfs track "*.jpg"
+git lfs track "*.png"
+git add .gitattributes
+git commit -m "Add JPG and PNG files to LFS"
+git config http.postBuffer 524288000  # バッファサイズを500MBに設定
+git push origin main
+git lfs ls-files
+git push origin main
+GIT_TRACE_PACKET=1 GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push origin main
+git lfs install
+git lfs track "*.png"
+git lfs track "*.jpg"
+git add .gitattributes
+git commit -m "Add large files to LFS"
+git add public/images/*.png
+git add public/images/*.jpg
+git commit -m "Track large files with LFS"
+git config http.postBuffer 524288000  # バッファサイズを500MBに増加
+git push origin main
+git lfs track "*.png"
+git lfs track "*.jpg"
+git add .gitattributes
+git add public/images/*.png
+git add public/images/*.jpg
+git commit -m "Track large files with LFS"
+git push origin main
+git lfs track "*.png"
+git lfs track "*.jpg"
+cat .gitattributes
+git add .gitattributes
+git add Public/images/*.png
+git add Public/images/*.jpg
+git commit -m "Track large files with LFS"
+git lfs track "*.png"
+git lfs track "*.jpg"
+cat .gitattributes
+git add .gitattributes
+git add Public/images/*.png
+git add Public/images/*.jpg
+git commit -m "Track large files with LFS"
+git push origin main
+git config http.postBuffer 524288000  # 500MBに増加
+git push origin main
+ping github.com
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+ssh-keygen -t ed25519 -C "your_email@example.com"
+git remote -v
+git remote set-url origin git@github.com:nozomuuu/otakarakuta-sealwafercollection.git
+ssh -T git@github.com
+cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git remote set-url origin git@github.com:nozomuuu/otakarakuta-sealwafercollection.git
+git remote -v
+git push origin main
+ssh -T git@github.com
+git remote set-url origin git@github.com:nozomuuu/otakarakuta-sealwafercollection.git
+git remote -v
+git push origin main
+git config --global http.postBuffer 524288000
+git push origin main
+git lfs track "*.png" "*.jpg"
+git add .gitattributes
+git commit -m "Track large files with LFS"
+git config --global http.postBuffer 1048576000  # 1GB
+git push origin main
+git config --global core.compression 9
+git config --global http.postBuffer 1048576000  # 1GBに設定
+git add path/to/your/first-file-or-directory
+git commit -m "First batch of files"
+git push origin main
+git lfs install
+git lfs track "*.jpg"
+git lfs track "*.png"
+git add .gitattributes
+git add Public/images/*.jpg
+git add Public/images/*.png
+git lfs install
+git lfs track "*.jpg"
+git lfs track "*.png"
+git add .gitattributes
+git add Public/images/*.jpg
+git add Public/images/*.png
+git commit -m "Move large image files to LFS"
+git push origin main
+git lfs install
+git lfs track "*.jpg"
+git lfs track "*.png"
+git add .gitattributes
+git add Public/images/*.jpg
+git add Public/images/*.png
+git config --global http.postBuffer 1048576000  # 1GBに設定
+git commit -m "Move large image files to LFS"
+git push origin main
+git lfs install
+git lfs track "*.jpg"  # 追跡するファイルタイプを指定
+git add .gitattributes  # LFSの設定ファイルを追加
+git add .  # 変更をステージ
+git commit -m "Track large image files with LFS"  # コミット
+git push origin main  # プッシュ
+git add ファイル1.jpg ファイル2.jpg  # 2つのファイルを追加
+git commit -m "Add file1 and file2"  # コミット
+git push origin main  # プッシュ
+git add ファイル1.jpg ファイル2.jpg  # 2つのファイルを追加
+git commit -m "Add file1 and file2"  # コミット
+git push origin main  # プッシュ
+git lfs track "*.jpg"  # すべてのJPGファイルを追跡
+git add .gitattributes  # LFSの設定ファイルを追加
+git add *.jpg  # JPGファイルをステージング
+git commit -m "Add images to LFS"
+git push origin main  # プッシュ
+git status
+git add build/images/1.jpg build/images/2.jpg build/images/3.jpg build/images/4.jpg build/images/5.jpg
+git commit -m "Add first 5 images"
+git push origin main

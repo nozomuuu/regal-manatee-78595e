@@ -1,0 +1,522 @@
+.gitconfig
+.npm/
+Desktop/
+Downloads/
+Library/
+" >> .gitignore
+git add .gitignore
+git commit -m "Update .gitignore to ignore unnecessary files"
+git push origin fix-branch
+git status
+git config --global user.name "nozomuuu"
+git config --global user.email "nzm1617@gmail.com"
+ls -a
+touch .gitmodules
+[submodule "otakarakutasealwafercollection"]
+    path = otakarakutasealwafercollection
+    url = https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git add .gitmodules
+git commit -m "Add or update .gitmodules for submodule"
+git push origin fix-branch
+nano .gitmodules
+nano .gitmodules
+git add .gitmodules
+git commit -m "Update .gitmodules with submodule URL"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git status
+git add .
+git commit -m "修正内容の説明をここに記入"
+git push origin fix-branch
+git add -A
+git commit -m "説明をここに記入"
+git rm -r --cached .
+git add .
+git commit -m "キャッシュのクリア後のコミット"
+git push origin fix-branch
+git clean -fd
+git diff
+cd otakarakutasealwafercollection
+git status
+git add .
+git commit -m "コミットメッセージを記入"
+cd ..
+git add otakarakutasealwafercollection
+git commit -m "Update submodule to latest commit"
+git push origin fix-branch
+cat .gitmodules
+cat .gitmodules
+git submodule init
+git submodule update
+git add .gitmodules
+git commit -m "Fix submodule URL"
+git push origin fix-branch
+git add otakarakutasealwafercollection
+git commit -m "Fix submodule URL and update"
+git push origin fix-branch
+git add otakarakutasealwafercollection
+git status
+git submodule status
+git add -f otakarakutasealwafercollection
+git status
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git commit -m "Update submodule otakarakutasealwafercollection"
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git status
+git commit -m "Update submodule otakarakutasealwafercollection"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git status
+git add .
+git commit -m "Update submodule"
+cd ..
+git add otakarakutasealwafercollection
+git commit -m "Update submodule reference"
+git push origin fix-branch
+git fetch origin
+git branch -r
+git checkout fix-branch
+git pull origin fix-branch
+git status
+echo ".lesshst" >> .gitignore
+git add .gitignore
+git commit -m "Ignore system-specific files"
+git push origin fix-branch
+# コメントなど、無関係な変更を追加
+echo "# Trigger rebuild" >> README.md
+# 変更をGitに追加
+git add README.md
+# コミット
+git commit -m "Trigger rebuild"
+# 変更をリモートにプッシュ
+git push origin fix-branch
+git branch -r
+git fetch origin pull/1/head:fix-branch
+git pull origin fix-branch
+git checkout -b temp-branch
+git fetch origin pull/1/head:fix-branch
+git checkout fix-branch
+git branch -d temp-branch
+git push origin fix-branch
+git add .
+git commit -m "Update sticker images"
+git push origin fix-branch
+git add .
+git commit -m "Update sticker images and fix SE issue for mobile"
+git push origin fix-branch
+git add .
+git add .
+git commit -m "Update sticker images and fix SE issue for mobile"
+git add .
+git commit -m "Add or update sticker images"
+git push origin fix-branch
+git add otakarakutasealwafercollection
+git commit -m "Update submodule and sticker images"
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git commit -m "Update submodule and sticker images"
+git push origin fix-branch
+git add -f otakarakutasealwafercollection
+git commit -m "Force update of submodule and sticker images"
+git push origin fix-branch
+git add otakarakutasealwafercollection -f
+git commit -m "Force update of submodule"
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --force
+git add otakarakutasealwafercollection
+git commit -m "Force update of submodule and sticker images"
+git push origin fix-branch
+git add .
+git commit -m "Add or update sticker images"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker image display, add collection list, and adjust SE for mobile"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git status
+git add .
+git commit -m "Update sticker images in submodule"
+cd ..
+git add otakarakutasealwafercollection
+git commit -m "Update submodule reference"
+git push origin fix-branch
+git gc --prune=now
+git fsck
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --recursive
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --recursive
+git submodule update --remote --merge
+git add otakarakutasealwafercollection
+git commit -m "Update submodule reference"
+git push origin fix-branch
+git add webpack.config.js
+git commit -m "webpack.config.jsの構文エラーを修正"
+git push origin fix-branch
+git add webpack.config.js
+git commit -m "webpack.config.jsの構文エラーを修正"
+git push origin fix-branch
+git push origin fix-branch
+npm install style-loader css-loader file-loader babel-loader --save-dev
+git commit -m "Add webpack.config.js and loaders"
+git push origin fix-branch
+git add webpack.config.js
+git add .
+git commit -m "Add webpack.config.js and necessary loaders"
+npm audit fix --force
+npm audit fix
+git add .
+git commit -m "Fix npm vulnerabilities"
+git push origin fix-branch
+git fsck
+git fsck
+git fetch --all
+git push origin fix-branch
+git rev-list --objects --all | grep 425518a066b38d8489116505a378abd28f7bd6b8
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch node_modules/public-encrypt/test/test_rsa_privkey.pem" --prune-empty --tag-name-filter cat -- --all
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+git push origin --force --all
+git pull origin fix-branch
+git push origin fix-branch
+git ls-remote origin pull/1/head
+git ls-remote origin pull/1/headgit branch
+git branch
+git ls-remote origin pull/1/head
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+npm audit fix --force
+cat .gitmodules
+git submodule sync
+git submodule update --init --recursive
+git submodule sync
+git submodule update --init --recursive
+git config --file .gitmodules --get submodule.otakarakutasealwafercollection.url
+git submodule deinit -f -- otakarakutasealwafercollection
+git submodule update --init --recursive
+git add .gitmodules otakarakutasealwafercollection
+git commit -m "Update submodule"
+git push origin fix-branch
+[submodule "otakarakutasealwafercollection"]
+  path = otakarakutasealwafercollection
+  url = https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+cat .gitmodules
+git submodule sync
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git log --oneline
+git config submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git add .gitmodules
+git commit -m "Update submodule URL to SSH"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git fetch
+git log --oneline
+git submodule deinit -f otakarakutasealwafercollection
+git submodule update --init --recursive
+git add .gitmodules otakarakutasealwafercollection
+git commit -m "Fix submodule path and update"
+git push origin fix-branch
+git add .
+git commit -m "Your commit message"
+git push origin fix-branch
+git submodule sync
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch
+git log --oneline
+git submodule update --remote --recursive
+git submodule deinit -f .
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch origin
+git checkout 27e02638
+git add otakarakutasealwafercollection
+git commit -m "Fix submodule reference"
+git push origin fix-branch
+git branch
+git checkout -b fix-branch
+git add .
+git commit -m "Fix submodule reference"
+git push origin fix-branch
+git submodule deinit -f .
+git submodule update --init --recursive
+git submodule sync
+git submodule update --init --recursive
+cat .gitmodules
+git submodule deinit -f .
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git log --oneline
+git submodule deinit -f .
+git submodule update --init --recursive
+nano .gitmodules
+git add .gitmodules
+git commit -m "Update submodule URL"
+git push origin fix-branch
+rm .gitmodulesy
+git add .gitmodules
+git commit -m "Update submodule URL"
+git push origin fix-branch
+git submodule update --remote --recursive
+cat .gitmodules
+git submodule deinit -f .
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch origin
+git checkout 27e02638  # 問題のコミットIDに手動で切り替え
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+cat .gitmodules
+cat .gitmodules
+cat .gitmodules
+git submodule sync
+git submodule update --init --recursive
+cd otakarakutasealwafercollection
+git fetch origin
+git checkout 27e02638  # 失敗しているコミットIDに切り替え
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Update submodule URL to SSH"
+git push origin fix-branch
+git checkout fix-branch
+git reset --soft HEAD~1
+git commit -m "Update submodule URL to SSH"
+git checkout fix-branch
+git reset --soft HEAD~1
+git commit -m "Update submodule URL to SSH"
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git push origin fix-branch
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Update submodule URL"
+git push origin fix-branch
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Change submodule URL to HTTPS"
+git push origin fix-branch
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Update submodule URL to HTTPS"
+git push origin fix-branch
+git submodule deinit -f .
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Reinitialize submodule"
+git push origin fix-branch
+git submodule status
+git submodule deinit -f .
+git submodule update --init --recursive
+git add .
+git commit -m "Force add submodule changes"
+git push origin fix-branch
+git push --force origin fix-branch
+# サブモジュールのキャッシュをクリア
+rm -rf .git/modules/otakarakutasealwafercollection
+# サブモジュールのディレクトリを削除
+rm -rf otakarakutasealwafercollection
+# サブモジュールの初期化
+git submodule update --init --recursive
+git submodule status
+# サブモジュールのキャッシュをクリア
+rm -rf .git/modules/otakarakutasealwafercollection
+# サブモジュールディレクトリの削除
+rm -rf otakarakutasealwafercollection
+# サブモジュールの再初期化
+git submodule update --init --recursive
+# サブモジュールの URL を確認
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url
+# サブモジュールの最新のコミットにリセット
+git submodule update --remote --recursive
+# 再度コミット
+git add otakarakutasealwafercollection
+git commit -m "Update submodule to latest commit"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git checkout main  # または正しいブランチ名を指定
+npm install
+npm audit fix --force
+npm run test
+npm run build
+rm -rf package-lock.json node_modules
+npm install
+echo "SKIP_PREFLIGHT_CHECK=true" >> .env
+npm run build
+npm audit fix --force
+rm -rf package-lock.json node_modules
+npm install
+npm install babel-loader@8.0.5
+echo "SKIP_PREFLIGHT_CHECK=true" >> .env
+npm run build
+npm audit fix --force
+npm audit fix
+npm audit fix --force
+npm audit fix --force
+npm audit fix --force
+npm audit fix --force
+npm run build
+export NODE_OPTIONS=--openssl-legacy-provider
+NODE_OPTIONS=--openssl-legacy-provider npm run build
+"scripts": {
+  "start": "react-scripts start",
+  "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+nvm install 16
+nvm use 16
+nvm install 16
+nvm use 16
+npm update
+npm audit fix --force
+npm run build
+npm run build
+npm run build
+npm run build
+npm install -g netlify-cli
+netlify deploy --prod
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB (+50.77 kB)  build/static/js/main.29bd3815.js
+  327 B (-6 B)          build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm run build
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB  build/static/js/main.29bd3815.js
+  327 B     build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm run build
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB  build/static/js/main.29bd3815.js
+  327 B     build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm run build
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB  build/static/js/main.29bd3815.js
+  327 B     build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm install -g netlify-cli
+npm error code EACCES
+npm error syscall mkdir
+npm error path /usr/local/lib/node_modules/netlify-cli
+npm error errno -13
+npm error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/netlify-cli'
+npm error     at async mkdir (node:internal/fs/promises:858:10)
+npm error     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+npm error     at async Promise.allSettled (index 0)
+npm error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+npm error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+npm error     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+npm error     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+npm error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+npm error   errno: -13,
+npm error   code: 'EACCES',
+npm error   syscall: 'mkdir',
+npm error   path: '/usr/local/lib/node_modules/netlify-cli'
+npm error }
+npm error
+npm error The operation was rejected by your operating system.
+npm error It is likely you do not have the permissions to access this file as the current user
+npm error
+npm error If you believe this might be a permissions issue, please double-check the
+npm error permissions of the file and its containing directories, or try running
+npm error the command again as root/Administrator.
+npm error A complete log of this run can be found in: /Users/shizhongxiwang/.npm/_logs/2024-09-24T17_18_55_921Z-debug-0.log
+IshinakmunoMBP2:~ shizhongxiwang$ netlify deploy --prod
+-bash: netlify: command not found
+IshinakmunoMBP2:~ shizhongxiwang$ 
+sudo npm install -g netlify-cli
+netlify deploy --prod
+sudo chown -R $(whoami) /Users/shizhongxiwang/Library/Preferences/netlify
+netlify deploy --prod
+netlify deploy --prod
+git branch
+git add .
+git commit -m "Update project settings and configuration files"
+git branch
+git add .
+git commit -m "Fix build issues"
+git checkout main
+git merge fix-branch
+git push origin main
+git pull origin main
+git push origin main
+git add .
+git commit -m "Netlifyの設定修正"
+git push origin fix-branch
+git lfs track "*.png"
+git lfs track "*.mp3"
+git add .gitattributes
+git add .
+git commit -m "Add LFS support for large files"
+git push origin fix-branch
+git add path/to/specific/file_or_directory
+git commit -m "Partial commit for easier push"
+git push origin fix-branch

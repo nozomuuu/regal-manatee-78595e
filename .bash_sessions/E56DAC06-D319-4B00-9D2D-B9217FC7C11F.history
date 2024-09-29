@@ -1,0 +1,52 @@
+node -v
+npm -v
+cd Desktop
+npx create-react-app card-pack-app
+npm start
+cd Desktop
+npx create-react-app card-pack-app
+npx create-react-app card-pack-app
+yycd card-pack-app
+npm start
+cd card-pack-app
+npm start
+cd ~/Desktop/card-pack-app
+ls
+cat package.json
+npm install react-router-dom
+npm start
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+<img src="/images/IMG_1159.jpg" alt="ウエハース" />
+cd ~/Desktop/card-pack-app
+npm start
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+cd ~/Desktop/card-pack-app
+cd ~/Desktop/card-pack-app
+npm start
+npm start
+cd ~/Desktop/card-pack-app
+ls
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+cd path/to/your/project  # プロジェクトディレクトリに移動
+git init  # Gitリポジトリを初期化
+git add .  # 全てのファイルをステージング
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git init  # Gitリポジトリを初期化
+git add .  # 全てのファイルをステージング
+git commit -m "first commit"  # 最初のコミット
+git remote add origin https://github.com/nozomuuu/-.git  # GitHub リポジトリを追加
+git branch -M main  # メインブランチに切り替え
+git push -u origin main  # GitHub にプッシュ
+Username for 'https://github.com': nozomuuu
+git remote set-url origin https://<YOUR_GITHUB_USERNAME>@github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY>.git
+git remote set-url origin https://<nozomuuu>@github.com/<nozomuuu>/<オタカラクタ シールコレクション>.gitgit push -u origin main
+git branch

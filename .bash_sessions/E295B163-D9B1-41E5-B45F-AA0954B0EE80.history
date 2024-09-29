@@ -1,0 +1,242 @@
+node -v
+npm -v
+cd Desktop
+npx create-react-app card-pack-app
+npm start
+cd Desktop
+npx create-react-app card-pack-app
+npx create-react-app card-pack-app
+yycd card-pack-app
+npm start
+cd card-pack-app
+npm start
+cd ~/Desktop/card-pack-app
+ls
+cat package.json
+npm install react-router-dom
+npm start
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+<img src="/images/IMG_1159.jpg" alt="ウエハース" />
+cd ~/Desktop/card-pack-app
+npm start
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+cd ~/Desktop/card-pack-app
+cd ~/Desktop/card-pack-app
+npm start
+npm start
+cd ~/Desktop/card-pack-app
+ls
+npm start
+cd ~/Desktop/card-pack-app
+npm start
+cd path/to/your/project  # プロジェクトディレクトリに移動
+git init  # Gitリポジトリを初期化
+git add .  # 全てのファイルをステージング
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git init  # Gitリポジトリを初期化
+git add .  # 全てのファイルをステージング
+git commit -m "first commit"  # 最初のコミット
+git remote add origin https://github.com/nozomuuu/-.git  # GitHub リポジトリを追加
+git branch -M main  # メインブランチに切り替え
+git push -u origin main  # GitHub にプッシュ
+Username for 'https://github.com': nozomuuu
+git remote set-url origin https://<YOUR_GITHUB_USERNAME>@github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY>.git
+git remote set-url origin https://<nozomuuu>@github.com/<nozomuuu>/<オタカラクタ シールコレクション>.gitgit push -u origin main
+git branch
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git branch
+git push origin main
+git push origin main
+git push origin main
+git branch
+git branch
+git checkout -b main
+git remote -v
+git remote set-url origin https://github.com/nozomuuu/-.gitgit add .
+git commit -m "first commit"
+git push -u origin main
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git remote set-url origin https://github.com/nozomuuu/-.gitgit add .
+git commit -m "first commit"
+git push -u origin main
+cd /path/to/your/repository
+git remote -v
+cd /path/to/your/repository
+git remote -v
+origin  https://github.com/USERNAME/REPOSITORY_NAME.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY_NAME.git (push)
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git remote -v
+git push -u origin main
+git push -u origin main
+git branch
+git checkout -b main
+git add .
+# macOS system files
+.DS_Store
+.Trash
+Library/
+git add .
+git rm --cached Desktop/card-pack-app
+touch .gitignore
+.DS_Store
+.Trash
+Library/
+git add .gitignore
+git commit -m "Add .gitignore to exclude system files"
+git push -u origin main
+git remote add origin https://github.com/nozomuuu/-.gitgit remote -v
+git remote -v
+git remote add origin https://github.com/nozomuuu/-.git
+git remote -v
+git push -u origin main
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git remote -v
+git branch
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git remote set-url origin https://<GitHub_USERNAME>@github.com/<GitHub_USERNAME>/<REPO_NAME>.git
+git remote set-url origin https://nozomuuu@github.com/nozomuuu/-.git
+git push -u origin main
+git remote set-url origin https://nozomuuu@github.com/nozomuuu/-.git
+git push -u origin main
+npm run buildnpm run build
+git add .
+git commit -m "スマホ対応のためにレスポンシブデザインを追加"
+git push origin main
+git add .
+git commit -m "スマホ対応のためにレスポンシブデザインを追加"
+git push origin main
+git add .
+git commit -m "スマホ対応のためにレスポンシブデザインを追加"
+git push origin main
+git add .
+git commit -m "スマホ対応のためにレスポンシブデザインを追加"
+git push origin main
+git add src/App.css
+git commit -m "スタイルの修正: シール画像の位置と残りパック数の調整"
+git push origin main
+git add src/App.css
+git commit -m "スタイルの修正: シール画像の位置と残りパック数の調整"
+git push origin main
+git add .
+git commit -m "レスポンシブデザインとレイアウト修正"
+git push origin main
+コードをコピーする
+# プロジェクトディレクトリに移動
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+# 変更をステージングに追加
+git add .
+# コミットメッセージを入力してコミット
+git commit -m "スマホ対応とレイアウト修正を追加"
+# GitHubのmainブランチにプッシュ
+git push origin maingit log
+git push origin main
+git add .
+git commit -m "wafer.pngのパスを修正"
+git push origin main
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git add .
+git commit -m "シール画像の動的読み込みとレイアウト修正を追加"
+git push origin main
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git add .
+git commit -m "スマホ対応のためにレイアウトとSEを追加"
+git push origin main
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+git add .
+git commit -m "useEffectの依存関係を修正"
+git push origin main
+cd /Users/shizhongxiwang/Desktop/card-pack-app
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+git add package.json package-lock.json
+git commit -m "Add @babel/plugin-proposal-private-property-in-object to devDependencies"
+git push origin main
+git add src/App.js
+git commit -m "Fix eslint warning by memoizing updateRemainingPacks and adjust layout"
+git push origin main
+git add src/App.js
+git commit -m "Fix layout issues, add SE, and correct button functionality"
+git push origin main
+git add .
+git commit -m "Fix duplicate elements, adjust layout, and improve SE timing"
+git push origin main
+git add .
+git commit -m "Fix layout spacing, wafer image, SE timing, and sticker display"
+git push origin main
+git add .
+git commit -m "Fix wafer animation, SE timing, and sticker list navigation"
+git push origin main
+git add .
+git commit -m "useEffectの修正とウエハース画像の修正"
+git push origin main
+git add src/App.js
+git commit -m "重複したReactのimportを削除"
+git push origin main
+git add src/App.js src/App.css
+git commit -m "ウエハースのアニメーションとSEのタイミングを修正、シール一覧ページの遷移を修正"
+git push origin main
+git add src/App.js src/App.css
+git commit -m "ウエハースアニメーションとSEタイミング修正、シール一覧ページ遷移修正"
+git push origin main
+git add src/App.js src/App.css
+git commit -m "ウエハースアニメーションとSEタイミング、シールサイズ修正、シール一覧遷移修正"
+git push origin main
+git add src/App.js src/App.css src/index.js
+git commit -m "ウエハースアニメーション、SE、シール一覧ページの遷移修正"
+git push origin main
+git add src/index.js src/StickersPage.js
+git commit -m "シール一覧ページのコンポーネント修正と重複宣言の解消"
+git push origin main
+git add src/App.js src/StickersPage.js src/App.css
+git commit -m "ウエハースアニメーションとSE、シール一覧ページ遷移の修正"
+git push origin main
+git add src/App.js src/StickersPage.js src/App.css
+git commit -m "ウエハースアニメーションとSE、シール一覧ページ遷移の修正"
+git push origin main
+git add src/App.js src/StickersPage.js src/App.css
+git commit -m "ウエハースアニメーションとSE、シール一覧ページ遷移の修正"
+git push origin main
+git add src/App.js src/StickersPage.js src/App.css
+git commit -m "ウエハースアニメーションとSE、シール一覧ページ遷移の修正"
+git push origin main
+git add .
+git commit -m "ウエハースのアニメーションとシールのSE、シール一覧ページの修正"
+git push origin main
+git add .
+git commit -m "ウエハースのアニメーションとシールのSE、シール一覧ページの修正"
+git push origin main
+git add .
+git commit -m "ウエハースのSEとシール表示修正、シール一覧ページの修正"
+git push origin main
+git add .
+git commit -m "シール表示とSEの修正、シール一覧ページの遷移修正"
+git push origin main
+git add .
+git commit -m "シール表示とSE、シール一覧ページの修正"
+git push origin main
+git add .
+git commit -m "シール表示、SE、シール一覧ページ修正"
+git push origin main
+git add .
+git commit -m "シール表示、SE、シール一覧ページ修正"
+git push origin main
+git add .
+git commit -m "シール位置、SEタイミング、シール一覧ページ修
+git add .
+git commit -m "シール位置、SEタイミング、シール一覧ページ修正"
+git push origin main
+git add .
+git commit -m "シール位置、SEタイミング、シール一覧ページ修正"
+git push origin main
+cd /Users/shizhongxiwang/Desktop/card-pack-appgit add .git commit -m "スマホ対応とレイアウト修正を追加"
+以下のコマンドを順番に実行して、変更をGitHubにプッシュしてください。
+bash

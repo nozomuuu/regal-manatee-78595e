@@ -1,0 +1,125 @@
+git status
+git checkout --ours .
+git add .
+git rebase --continue
+git push origin main
+git rebase --continue
+git push origin main
+git rebase --abort
+git add .
+git commit -m "Resolve conflicts and continue work"
+git pull origin main --rebase
+git push origin main
+rm -rf .git/rebase-merge
+git rebase --abort
+git rebase --continue
+git push origin main
+brew install git-lfs
+git lfs install
+git push origin main
+git pull origin main --rebase
+git push origin main
+git push origin main --force
+git remote -v
+git remote set-url origin https://https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit fetch origin
+git reset --hard origin/main
+git add .
+git commit -m "Fix and update code changes"
+git status
+git log
+git checkout -b fix-branch
+.bash_history
+Library/
+.Trash/
+git add .
+git commit -m "Add untracked files"
+brew install git-lfs
+git lfs install
+git submodule add <url> Desktop/card-pack-app
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install git-lfs
+git lfs install
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/shizhongxiwang/.bash_profile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew install git-lfs
+git lfs install
+find . -type f -exec du -h {} + | sort -rh | head -n 20
+git lfs track "*.clip"
+git lfs track "*.psp"
+git lfs track "*.zip"
+git add .gitattributes
+git add .
+git commit -m "Add large files to LFS tracking"
+git push origin fix-branch
+git add .gitattributes
+git add .
+git commit -m "Add large files to LFS tracking"
+git push origin fix-branch
+git add otakarakutasealwafercollection/
+git add .gitattributes
+git commit -m "Add large files to LFS tracking"
+git push origin fix-branch
+git remote set-url origin https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git prune
+git push origin fix-branch
+git status
+git add .
+git status
+echo "
+.bash_history
+.bash_profile
+.gitconfig
+.npm/
+Desktop/
+Downloads/
+Library/
+" >> .gitignore
+git add .gitignore
+git commit -m "Update .gitignore to ignore unnecessary files"
+git push origin fix-branch
+git status
+git config --global user.name "nozomuuu"
+git config --global user.email "nzm1617@gmail.com"
+ls -a
+touch .gitmodules
+[submodule "otakarakutasealwafercollection"]
+    path = otakarakutasealwafercollection
+    url = https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git add .gitmodules
+git commit -m "Add or update .gitmodules for submodule"
+git push origin fix-branch
+nano .gitmodules
+nano .gitmodules
+git add .gitmodules
+git commit -m "Update .gitmodules with submodule URL"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git add .
+git commit -m "Fix sticker collection page and SE timing"
+git push origin fix-branch
+git status
+git add .
+git commit -m "修正内容の説明をここに記入"
+git push origin fix-branch
+git add -A
+git commit -m "説明をここに記入"
+git rm -r --cached .
+git add .
+git commit -m "キャッシュのクリア後のコミット"
+git push origin fix-branch
+git clean -fd
+git diff
+cd otakarakutasealwafercollection
+git status
+git add .
+git commit -m "コミットメッセージを記入"
+cd ..
+git add otakarakutasealwafercollection
+git commit -m "Update submodule to latest commit"
+git push origin fix-branch
+cat .gitmodules

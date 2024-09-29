@@ -1,0 +1,55 @@
+ HEAD
+import React from 'react';
+
+function StickersPage() {
+  return (
+    <div>
+      <h1>手に入れたシール一覧</h1>
+      {/* シール一覧をここに表示する */}
+    </div>
+  );
+}
+
+export default StickersPage;
+e
+ 5607d1c7 (Ignore .DS_Store files)
+<<<<<<< HEAD
+.bash_sessions/
+Desktop/*.png
+
+.bash_history
+.bash_profile
+.gitconfig
+.npm/
+Desktop/
+Downloads/
+Library/
+
+.lesshst
+=======
+ファイル名またはディレクトリ名
+.DS_Store
+Library/
+.Trash/
+.bash_history
+.vscode/
+Dropbox/
+.npm/
+<file_or_directory_to_ignore>
+<file_or_directory_to_ignore>
+Desktop/card-pack-app/largefile.dat
+Desktop/20230724.mov
+Desktop/karasuningen.pdf.zip
+Desktop/nyukodate2.zip
+Desktop/アニメーション20230118.mov
+Desktop/チョン・ジャンヒョン/19_end/hero.mov
+path/to/largefile
+.bash_sessions/
+Desktop/*.png
+>>>>>>> 57894ccf (Removed submodule and fixed repository structure)
+build/
+node_modules/
+.DS_Store
+public/
+build/
+Desktop/*.png

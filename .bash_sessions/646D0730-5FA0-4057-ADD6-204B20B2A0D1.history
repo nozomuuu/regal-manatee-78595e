@@ -1,0 +1,27 @@
+git status
+git checkout --ours .
+git add .
+git rebase --continue
+git push origin main
+git rebase --continue
+git push origin main
+git rebase --abort
+git add .
+git commit -m "Resolve conflicts and continue work"
+git pull origin main --rebase
+git push origin main
+rm -rf .git/rebase-merge
+git rebase --abort
+git rebase --continue
+git push origin main
+brew install git-lfs
+git lfs install
+git push origin main
+git pull origin main --rebase
+git push origin main
+git push origin main --force
+git remote -v
+git remote set-url origin https://https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit fetch origin
+git reset --hard origin/main
+git add .
+git commit -m "Fix and update code changes"

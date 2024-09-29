@@ -1,0 +1,525 @@
+git commit -m "Update submodule URL to SSH"
+git push origin fix-branch
+git checkout fix-branch
+git reset --soft HEAD~1
+git commit -m "Update submodule URL to SSH"
+git checkout fix-branch
+git reset --soft HEAD~1
+git commit -m "Update submodule URL to SSH"
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git push origin fix-branch
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url git@github.com:nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Update submodule URL"
+git push origin fix-branch
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Change submodule URL to HTTPS"
+git push origin fix-branch
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git submodule sync
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Update submodule URL to HTTPS"
+git push origin fix-branch
+git submodule deinit -f .
+git submodule update --init --recursive
+git add .gitmodules
+git commit -m "Reinitialize submodule"
+git push origin fix-branch
+git submodule status
+git submodule deinit -f .
+git submodule update --init --recursive
+git add .
+git commit -m "Force add submodule changes"
+git push origin fix-branch
+git push --force origin fix-branch
+# サブモジュールのキャッシュをクリア
+rm -rf .git/modules/otakarakutasealwafercollection
+# サブモジュールのディレクトリを削除
+rm -rf otakarakutasealwafercollection
+# サブモジュールの初期化
+git submodule update --init --recursive
+git submodule status
+# サブモジュールのキャッシュをクリア
+rm -rf .git/modules/otakarakutasealwafercollection
+# サブモジュールディレクトリの削除
+rm -rf otakarakutasealwafercollection
+# サブモジュールの再初期化
+git submodule update --init --recursive
+# サブモジュールの URL を確認
+git config -f .gitmodules submodule.otakarakutasealwafercollection.url
+# サブモジュールの最新のコミットにリセット
+git submodule update --remote --recursive
+# 再度コミット
+git add otakarakutasealwafercollection
+git commit -m "Update submodule to latest commit"
+git push origin fix-branch
+cd otakarakutasealwafercollection
+git checkout main  # または正しいブランチ名を指定
+npm install
+npm audit fix --force
+npm run test
+npm run build
+rm -rf package-lock.json node_modules
+npm install
+echo "SKIP_PREFLIGHT_CHECK=true" >> .env
+npm run build
+npm audit fix --force
+rm -rf package-lock.json node_modules
+npm install
+npm install babel-loader@8.0.5
+echo "SKIP_PREFLIGHT_CHECK=true" >> .env
+npm run build
+npm audit fix --force
+npm audit fix
+npm audit fix --force
+npm audit fix --force
+npm audit fix --force
+npm audit fix --force
+npm run build
+export NODE_OPTIONS=--openssl-legacy-provider
+NODE_OPTIONS=--openssl-legacy-provider npm run build
+"scripts": {
+  "start": "react-scripts start",
+  "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+nvm install 16
+nvm use 16
+nvm install 16
+nvm use 16
+npm update
+npm audit fix --force
+npm run build
+npm run build
+npm run build
+npm run build
+npm install -g netlify-cli
+netlify deploy --prod
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB (+50.77 kB)  build/static/js/main.29bd3815.js
+  327 B (-6 B)          build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm run build
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB  build/static/js/main.29bd3815.js
+  327 B     build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm run build
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB  build/static/js/main.29bd3815.js
+  327 B     build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm run build
+> card-pack-app@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  52.02 kB  build/static/js/main.29bd3815.js
+  327 B     build/static/css/main.61c3eae3.css
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+  npm install -g serve
+  serve -s build
+Find out more about deployment here:
+  https://cra.link/deployment
+IshinakmunoMBP2:~ shizhongxiwang$ npm install -g netlify-cli
+npm error code EACCES
+npm error syscall mkdir
+npm error path /usr/local/lib/node_modules/netlify-cli
+npm error errno -13
+npm error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/netlify-cli'
+npm error     at async mkdir (node:internal/fs/promises:858:10)
+npm error     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+npm error     at async Promise.allSettled (index 0)
+npm error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+npm error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+npm error     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+npm error     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+npm error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+npm error   errno: -13,
+npm error   code: 'EACCES',
+npm error   syscall: 'mkdir',
+npm error   path: '/usr/local/lib/node_modules/netlify-cli'
+npm error }
+npm error
+npm error The operation was rejected by your operating system.
+npm error It is likely you do not have the permissions to access this file as the current user
+npm error
+npm error If you believe this might be a permissions issue, please double-check the
+npm error permissions of the file and its containing directories, or try running
+npm error the command again as root/Administrator.
+npm error A complete log of this run can be found in: /Users/shizhongxiwang/.npm/_logs/2024-09-24T17_18_55_921Z-debug-0.log
+IshinakmunoMBP2:~ shizhongxiwang$ netlify deploy --prod
+-bash: netlify: command not found
+IshinakmunoMBP2:~ shizhongxiwang$ 
+sudo npm install -g netlify-cli
+netlify deploy --prod
+sudo chown -R $(whoami) /Users/shizhongxiwang/Library/Preferences/netlify
+netlify deploy --prod
+netlify deploy --prod
+git branch
+git add .
+git commit -m "Update project settings and configuration files"
+git branch
+git add .
+git commit -m "Fix build issues"
+git checkout main
+git merge fix-branch
+git push origin main
+git pull origin main
+git push origin main
+git add .
+git commit -m "Netlifyの設定修正"
+git push origin fix-branch
+git lfs track "*.png"
+git lfs track "*.mp3"
+git add .gitattributes
+git add .
+git commit -m "Add LFS support for large files"
+git push origin fix-branch
+git add path/to/specific/file_or_directory
+git commit -m "Partial commit for easier push"
+git push origin fix-branch
+git lfs status
+git add path/to/specific/large/file
+git commit -m "Add large file separately"
+git push origin fix-branch
+git lfs prune
+git lfs status
+git add path/to/large/files_or_directories
+git commit -m "Re-add large files"
+git push origin fix-branch
+git lfs logs last
+sudo chown -R $(whoami) /path/to/your/repository
+cat .gitattributes
+git lfs track "*.mp3"
+git lfs track "*.png"
+git add .gitattributes
+git add .
+git commit -m "Fix LFS and permission issues"
+git push origin fix-branch
+nano .gitattributes
+git lfs untrack "*.png"
+git lfs untrack "*.mp3"
+git add .
+git commit -m "Remove LFS tracking and push changes"
+git push origin fix-branch
+du -sh *
+rm -rf .git
+git init
+git remote add origin <repository-url>
+git add .
+rm -rf .git
+git init
+git remote add origin <repository-url>
+git add .
+sudo chown -R $(whoami) /path/to/your/repository
+git rm -rf .git
+git init
+git remote add origin <リモートリポジトリURL>
+git add .
+git rm --cached Desktop/card-pack-app
+rm -rf Desktop/card-pack-app/.git
+git add .
+git commit -m "Removed submodule and fixed repository structure"
+git push origin fix-branch
+git status
+git add .
+git commit -m "Fix: Removed submodule and resolved repository structure"
+git push origin fix-branch
+# サブモジュールをキャッシュから削除（無効なパスエラーを避ける）
+git rm --cached Desktop/card-pack-app
+# サブモジュールの .git フォルダを手動で削除
+rm -rf Desktop/card-pack-app/.git
+# .gitmodules ファイルを削除
+rm .gitmodules
+# 変更を確認
+git status
+# 全ての変更をステージに追加
+git add .
+# コミットを作成
+git commit -m "Removed submodule and fixed repository structure"
+# 変更をリモートブランチへプッシュ
+git push origin fix-branch
+git rm --cached Desktop/card-pack-app
+rm -rf Desktop/card-pack-app/.git
+rm .gitmodules
+git add .
+git commit -m "Removed submodule and fixed repository structure"
+git pull origin fix-branch --rebase
+git push origin fix-branch
+git branch
+git checkout -b fix-branch
+git ls-remote --heads origin
+git push --set-upstream origin fix-branch
+git remote -v
+git remote -v
+ssh -T git@github.com
+git remote set-url origin git@github.com:<username>/<repository>.git
+git remote set-url origin https://<username>:<personal-access-token>@github.com/<username>/<repository>.git
+git checkout -b fix-branch
+git add .
+git commit -m "Fixed repository structure"
+git push -u origin fix-branch
+git remote -v
+git remote set-url origin https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git push -u origin fix-branch
+git remote add origin https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git remote -v
+git push -u origin fix-branch
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git pull origin fix-branch
+git add .
+git commit -m "Resolved merge conflicts"
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git fetch origin
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git pull origin fix-branch --rebase
+git add .
+git commit -m "WIP: Saving local changes before rebase"
+git pull origin fix-branch --rebase
+pwd
+cd /path/to/otakarakutasealwafercollection
+ls -a
+cd otakarakutasealwafercollection
+ls -a
+git add .
+git commit -m "WIP: Saving local changes before rebase"
+git pull origin fix-branch --rebase
+git status
+rm -rf .git
+git init
+git remote add origin https://github.com/username/otakarakutasealwafercollection.git
+git add .
+git commit -m "再コミット"
+git push origin fix-branch
+git remote -v
+git remote -v
+git push origin fix-branch
+git pull origin fix-branch --rebase
+git commit -m "Resolved merge conflicts"
+git push origin fix-branch
+git add .
+git commit -m "Committing local changes"
+git pull origin fix-branch --rebase
+git add .
+git rebase --continue
+git push origin fix-branch
+git push origin fix-branch
+git submodule deinit -f --all
+git submodule update --init --recursive
+git add .
+git commit -m "Updated submodules"
+git push origin fix-branch
+git submodule update --init --recursive
+git submodule deinit -f --all
+git rm -r path/to/submodule
+git commit -m "Removed submodule"
+git push origin fix-branch
+git submodule update --init --recursive
+git submodule deinit -f --all
+git submodule deinit -f --all
+git rm -r path/to/submodule
+git rm -r otakarakutasealwafercollection
+rm .gitmodules
+nano .git/config
+git add .
+git commit -m "Removed submodule"
+git push origin fix-branch
+git submodule add https://github.com/nozomu/otakarakutasealwafercollection.git otakarakutasealwafercollection
+git submodule init
+git submodule update
+git add .
+git commit -m "Re-added submodule"
+git push origin fix-branch
+git submodule deinit -f --all
+git rm -r --cached path/to/submodule  # path/to/submoduleはサブモジュールのパスに置き換えてください
+git commit -m "Removed submodule"
+git push origin fix-branch
+ls -R # これでプロジェクト内のファイル全体をリスト表示
+find . -name "index.html"
+ls -R | grep "index.html"
+git checkout <commit-id> -- path/to/file
+npm run build
+git checkout <commit-id> -- path/to/file
+4$4npm run build
+npm install react react-dom
+npm install axios react-router-dom
+npm audit fix --force
+npm cache clean --force
+npm audit fix --force
+sudo chown -R $USER:$(id -gn $USER) /Users/shizhongxiwang/.npm
+sudo chown -R $USER:$(id -gn $USER) /Users/shizhongxiwang/.npm
+npm cache clean --force
+npm audit fix --force
+npm audit fix --force
+npm audit
+npm audit fix --force
+npm install serialize-javascript@最新の安全なバージョン
+npm install serialize-javascript@5.0.1
+npm install serialize-javascript@^5.0.1
+npm install serialize-javascript
+npm run build
+npm update
+# node_modulesフォルダとpackage-lock.jsonファイルを削除
+rm -rf node_modules
+rm package-lock.json
+# `babel-loader`の依存関係を削除
+npm uninstall babel-loader
+# 必要なパッケージを再インストール
+npm install
+npm run build
+SKIP_PREFLIGHT_CHECK=true
+# node_modulesフォルダとpackage-lock.jsonを削除
+rm -rf node_modules
+rm package-lock.json
+# 依存関係を再インストール
+npm install
+SKIP_PREFLIGHT_CHECK=true
+npm install -g npm-check-updates
+ncu -u
+npm install
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack
+npm uninstall webpack --save-dev
+npm install
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack
+npm uninstall webpack --save-dev
+npm install
+SKIP_PREFLIGHT_CHECK=true
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack --save
+npm uninstall webpack --save-dev
+npm install
+npm run build
+rm -rf node_modules
+rm package-lock.json
+npm uninstall webpack
+npm install
+echo "SKIP_PREFLIGHT_CHECK=true" >> .env
+npm run build
+npm run build
+npm run build
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+reportWebVitals();
+npm run build
+npm run build
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+reportWebVitals();
+{   "name": "my-app",;   "version": "1.0.0",;   "main": "index.js",;   "scripts": {;     "start": "react-scripts start",;     "build": "react-scripts build",;     "test": "react-scripts test",;     "eject": "react-scripts eject";   }
+}
+npm init
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+npm run build
+npm run build
+npm run build
+npm run build
+＄
+npm run build
+npm cache clean --force
+rm -rf node_modules
+npm install
+npm run build

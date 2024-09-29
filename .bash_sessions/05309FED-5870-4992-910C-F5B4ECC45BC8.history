@@ -1,0 +1,17 @@
+node -v
+npm -v
+cd Desktop
+npx create-react-app card-pack-app
+npm start
+cd Desktop
+npx create-react-app card-pack-app
+npx create-react-app card-pack-app
+yycd card-pack-app
+npm start
+cd card-pack-app
+npm start
+cd ~/Desktop/card-pack-app
+ls
+cat package.json
+npm install react-router-dom
+npm start

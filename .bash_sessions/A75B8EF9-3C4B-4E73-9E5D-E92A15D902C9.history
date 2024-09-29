@@ -1,0 +1,518 @@
+git add .
+git commit -m "シール位置、SEタイミング、シール一覧ページ修正"
+git push origin main
+git pull origin main
+df -h
+git pull origin main --rebase
+git add .
+git commit -m "シール位置、SEタイミング、シール一覧ページ修正"
+git push origin main
+git status
+git add .
+git commit -m "作業内容を記述"
+git stash
+git pull origin main --rebase
+git push origin main
+git push origin main
+git push origin main
+git add .
+git commit -m "シール位置、SEタイミング、シール一覧ページ修正"
+git stash
+git pull origin main --rebase
+git push origin main
+git rm --cached Desktop/card-pack-app
+git add .
+git commit -m "不要なサブモジュールを削除"
+git push origin main
+git gc --prune=now
+git prune
+git pull origin main --rebase
+git push origin main
+git rm --cached Desktop/card-pack-app
+echo ".DS_Store" >> .gitignore
+git add .gitignore
+git commit -m "Ignore .DS_Store files"
+git push origin main
+git stash
+git pull origin main --rebase
+git stash pop
+git add <解決済みのファイル>
+git rebase --continue
+git push origin main
+<<<<<<< HEAD
+（リモートの変更）
+=======
+（ローカルの変更）
+>>>>>>> branch-name
+git add .gitignore
+git rebase --continue
+git rebase --continue
+<<<<<<< HEAD
+（リモートの変更）
+=======
+（ローカルの変更）
+>>>>>>> branch-name
+git add .gitignore
+git rebase --continue
+git stash
+git pull origin main --rebase
+git stash pop
+git add <解決済みのファイル>
+git rebase --continue
+git push origin main
+git status
+git status
+nano .gitignore
+git add .gitignore
+git rebase --continue
+git status
+git status
+git add .gitignore
+git add .gitignoregit rebase --continue
+git add .gitignore
+git rebase --continue
+Last login: Mon Sep 23 01:00:29 on ttys000
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+  Creative Cloud Files/
+#       Desktop/
+#       Documents/
+#       Downloads/
+#       Dropbox/
+#       "Google \343\203\211\343\203\251\343\202\244\343\203\226/"
+#       Library/
+#       LocalAppData/
+#       Movies/
+#       Music/
+#       Pictures/
+#       Public/.com.apple.timemachine.supported
+#       Public/.localized
+#       Public/Drop Box/
+#       Sites/
+:wq#
+git status
+git push origin main
+git status
+git add .
+git submodule add <url> Desktop/card-pack-app
+git rm --cached Desktop/card-pack-app
+git add .
+git rm --cached Desktop/card-pack-app
+git add .
+git rm --cached Desktop/card-pack-app
+git rm --cached Desktop/card-pack-app
+git add .
+git rm --cached Desktop/card-pack-app
+git add .
+git commit -m "修正: サブリポジトリの削除とシール一覧ページの改善"
+git push origin main
+git push origin main
+git rm --cached Desktop/card-pack-app
+rm .gitmodules
+git add .
+git submodule
+git rm --cached Desktop/card-pack-app
+rm -rf .git/modules/Desktop/card-pack-app
+nano .git/config
+git push origin main
+git add .
+git rm --cached Desktop/card-pack-app
+git submodule
+rm -rf .git/modules/Desktop/card-pack-appgit add .
+git commit -m "サブモジュールの完全削除"
+git push origin main
+git submodule
+git add .
+git submodule
+cat .gitmodules
+rm .gitmodules
+nano .git/config
+git submodule
+git add .
+rm -rf .git/modules/Desktop/card-pack-app
+git rm --cached Desktop/card-pack-app
+git add .
+cat .gitmodules
+git status
+echo "ファイル名またはディレクトリ名" >> .gitignore
+git status
+git add .gitignore
+git commit -m "Update .gitignore"
+echo ".DS_Store" >> .gitignore
+echo "Library/" >> .gitignore
+echo ".Trash/" >> .gitignore
+echo ".bash_history" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo "Dropbox/" >> .gitignore
+echo ".npm/" >> .gitignore
+git add .gitignore
+git commit -m "Update .gitignore to ignore unnecessary files"
+git rm -r --cached .
+git add .
+git commit -m "Remove unnecessary tracked files"
+git push origin main
+git rm --cached Desktop/card-pack-app
+rm -rf .git/modules/Desktop/card-pack-app
+git add .
+git commit -m "Remove card-pack-app submodule"
+git push origin main
+git rev-list --objects --all | grep '<large_file_pattern>'
+git rm --cached <large_file_path>
+echo "<file_or_directory_to_ignore>" >> .gitignore
+git add .gitignore
+git commit -m "Remove large files and update .gitignore"
+git push origin main
+git rev-list --objects --all | grep '<large_file_pattern>'
+git rm --cached <large_file_path>
+echo "<file_or_directory_to_ignore>" >> .gitignore
+git rev-list --objects --all | sort -k 2
+git rm --cached Desktop/card-pack-app/largefile.dat
+echo "Desktop/card-pack-app/largefile.dat" >> .gitignore
+git add .gitignore
+git commit -m "Removed large file and updated .gitignore"
+git push origin main
+git rev-list --objects --all | grep -E '(\.zip|\.mp4|\.mov|\.tar|\.iso)' # よく大きいファイルである拡張子を検索
+git rm --cached Desktop/20230724.mov
+git rm --cached Desktop/karasuningen.pdf.zip
+git rm --cached Desktop/nyukodate2.zip
+git rm --cached Desktop/アニメーション20230118.mov
+git rm --cached Desktop/チョン・ジャンヒョン/19_end/hero.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/03_walk/walk01.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/03_walk/walk02.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/03_walk/walk03.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/03_walk/walk04.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/03_walk/walk05.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/04_walk2/clean.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/04_walk2/rough.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/05_run/run01.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/05_run/run02.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/05_run/run03.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/07_turn/turn01.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s02/07_turn/turn02.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s03/08_anti/anticipation01.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s03/08_anti/anticipation02.mov
+git rm --cached Desktop/チョン・ジャンヒョン/yoonjongha-s03/08_anti/anticipation03.mov
+# ... (続けて残りのファイルを削除)
+echo "Desktop/20230724.mov" >> .gitignore
+echo "Desktop/karasuningen.pdf.zip" >> .gitignore
+echo "Desktop/nyukodate2.zip" >> .gitignore
+echo "Desktop/アニメーション20230118.mov" >> .gitignore
+echo "Desktop/チョン・ジャンヒョン/19_end/hero.mov" >> .gitignore
+# ... (続けて残りのファイルも追加)
+git add .gitignore
+git commit -m "Remove large files and update .gitignore"
+git push origin main
+git prune
+git gc
+git push origin maingit remote -v
+git remote -v
+git push origin main
+git add <file_name>
+git commit -m "Add smaller file"
+git push origin main
+git config --global http.postBuffer 524288000
+git remote -v
+git rm --cached path/to/largefile
+echo "path/to/largefile" >> .gitignore
+git add .gitignore
+git commit -m "Remove large files and update .gitignore"
+git gc --prune=now --aggressive
+git push origin main
+git config --global http.postBuffer 1048576000
+git filter-repo --strip-blobs-bigger-than 100M
+pip install git-filter-repo
+git config --global http.postBuffer 1048576000
+git filter-repo --strip-blobs-bigger-than 100M
+pip install git-filter-repo
+git push origin main
+git lfs install
+git lfs track "*.mov"
+git lfs track "*.mp4"
+git add .gitattributes
+git add path/to/largefile
+git commit -m "Move large files to LFS"
+git push origin main
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/shizhongxiwang/.bash_profile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew helpbrew install git-lfs
+brew install git-lfs
+git lfs install
+git lfs track "*.ファイル拡張子"
+git lfs track "*.ファイル拡張子"
+git add .gitattributes
+git add large-file.ファイル拡張子
+git commit -m "Add large files with Git LFS"
+git push origin <branch-name>
+ls
+touch large-file.ファイル拡張子
+git add large-file.ファイル拡張子
+git commit -m "Add large file"
+git push origin main
+git push origin maingit push origin main
+git push origin main
+git lfs ls-files
+git lfs track
+git lfs track "*.ファイル拡張子"
+git add .
+git commit -m "Re-add large files with LFS"
+git lfs ls-filesgit lfs track "*.ファイル拡張子"
+git add .
+git commit -m "Re-add large files with LFS"
+git add Desktop/card-pack-app
+git commit -m "Re-add large files with LFS and update card-pack-app"
+git status
+git add Desktop/card-pack-app
+git statusgit status
+git status
+git add -f Desktop/card-pack-app
+git commit -m "Re-add large files with LFS and update card-pack-app"
+git add -f Desktop/card-pack-app
+git status
+cat .gitignore
+Desktop/card-pack-app/largefile.dat
+ls Desktop/card-pack-app/
+touch Desktop/card-pack-app/largefile.dat
+git add Desktop/card-pack-app/largefile.dat
+cd Desktop/card-pack-app
+git add largefile.dat
+git commit -m "Add largefile.dat in submodule"
+cd ../
+git add Desktop/card-pack-app
+git commit -m "Update submodule with largefile.dat"
+git add card-pack-app
+git commit -m "Update submodule with largefile.dat"
+git push origin main
+git status
+git add card-pack-app
+git commit -m "Update submodule card-pack-app"
+cd card-pack-app
+git add .
+git commit -m "Commit changes in card-pack-app"
+cd ..
+git add card-pack-app
+git commit -m "Update submodule reference"
+git push origin main
+git lfs ls-files
+git lfs ls-files
+git lfs install
+git lfs track
+git lfs ls-files
+git lfs fsck
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+git lfs push --all origin main
+git push origin main
+git config --global http.postBuffer
+git lfs push --all origin main
+git push --force-with-lease origin main --thin
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
+git push --force-with-lease origin main --thin
+git push origin main --thin --force-with-lease
+git lfs ls-files
+git lfs push --all origin main
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+git lfs ls-files
+git config --global pack.windowMemory "100m"
+git config --global pack.packSizeLimit "100m"
+git config --global pack.threads "1"
+git config --global http.postBuffer 1048576000
+git lfs push --all origin main
+git push --force-with-lease origin main --thin
+git lfs ls-files
+git lfs track "*.ファイル拡張子"
+git add .gitattributes
+git add <LFSで追跡するファイル>
+git commit -m "Track large files with LFS"
+git add path/to/your/large-file.ext
+git commit -m "Track large files with LFS"
+ls path/to/your/large-file.ext
+git lfs track "path/to/your/large-file.ext"
+git add path/to/your/large-file.ext
+git commit -m "Track large files with LFS"
+ls <path/to/your/large-file.ext>
+ls Desktop/card-pack-app/largefile.dat
+ls Desktop/card-pack-app/largefile.dat
+git add Desktop/card-pack-app/largefile.dat
+git commit -m "Track large file with LFS"
+cd Desktop/card-pack-app
+git add largefile.dat
+git commit -m "Track largefile.dat with LFS"
+cd ../
+git add card-pack-app
+git commit -m "Update submodule to track largefile.dat"
+cd Desktop/card-pack-app
+git status
+git add card-pack-app
+git commit -m "Update submodule to track largefile.dat"
+git add card-pack-app
+git commit -m "Update submodule to track largefile.dat"
+git status
+git status
+no changes added to commit (use "git add" and/or "git commit -a")
+IshinakmunoMBP2:Desktop shizhongxiwang$ git add <ファイルパス>
+git commit -m "コミットメッセージ"
+git add .
+git add .
+git commit -m "コミットメッセージ"
+git add .
+git add .
+git commit -m "コミットメッセージ"
+git status
+git push origin main
+.bash_sessions/
+git rm --cached .bash_sessions/ -r
+.bash_sessions/
+cd .bash_sessions/
+ls .bash_sessions/
+echo ".bash_sessions/" >> .gitignore
+git add .gitignore
+git commit -m "Ignore bash session files"
+git push origin main
+git status
+git status
+git status
+git status
+echo ".bash_sessions/" >> .gitignore
+echo "yourfile.log" >> .gitignore
+git add .gitignore
+git commit -m "Added unnecessary files to .gitignore"
+git push origin main
+git rm -r --cached .bash_sessions/
+cat .gitignore
+git add .gitignore
+git commit -m "Remove bash session files from tracking"
+git push origin main
+echo ".bash_sessions/" >> .gitignore
+git rm -r --cached .bash_sessions/
+git add .gitignore
+git commit -m "Ignore bash session files"
+git push origin main
+git clone --depth 1 <リポジトリURL>
+git clone --depth 1 https://github.com/user/repository.git
+git clone --depth 1 https://github.com/user/repository.git
+git clone https://github.com/nozomuuu/otakarakutasealwafercollection.git
+git status
+cat .gitignore
+.bash_sessions/
+git rm --cached -r .bash_sessions/
+git add .gitignore
+git commit -m "Update .gitignore to exclude .bash_sessions"
+git add .
+git commit -m "Add necessary files"
+git rm --cached .bash_sessions/otakarakutasealwafercollection
+git submodule add <リポジトリURL> .bash_sessions/otakarakutasealwafercollection
+git rm --cached .bash_sessions/otakarakutasealwafercollection
+git status
+git status
+echo ".bash_sessions/" >> .gitignore
+echo "Desktop/*.png" >> .gitignore
+git add .gitignore
+git commit -m "Update .gitignore to exclude bash sessions and Desktop images"
+rm .bash_sessions/*.history .bash_sessions/*.session
+git add .
+git commit -m "Remove unnecessary files"
+git clone https://github.com/nozomuuu/otakarakutasealwafercollection.git
+cd otakarakutasealwafercollection
+echo ".bash_sessions/" >> .gitignore
+echo "Desktop/*.png" >> .gitignore
+git add .
+git commit -m "Apply fixes to project"
+git push origin main
+git add app.js
+git commit -m "Fix SE timing and sticker list page routing"
+git push origin main
+git add App.js
+git commit -m "Fix SE timing and sticker list page routing"
+git push origin main
+ls
+ls
+cd otakarakutasealwafercollection
+ls
+cd src
+ls
+git add src/App.js  # App.jsがある場合
+# または
+git add src/app.js  # app.jsがある場合
+git commit -m "Fix SE timing and sticker list page routing"
+git push origin main
+git add App.js
+git add StickersPage.js
+git commit -m "Fix SE timing and sticker list page routing"
+git push origin main
+cat App.js
+cat StickersPage.js
+git status
+git add src/App.js src/StickersPage.js
+git commit -m "Fix SE timing and sticker list page routing"
+git push origin main
+ls src
+ls src
+pwd
+cd ~/otakarakutasealwafercollection
+ls
+ls src
+git add src/App.js src/StickersPage.js
+git commit -m "Fix SE timing and sticker list page routing"
+git push origin main
+git diff src/App.js src/StickersPage.js
+git pull origin main
+git add src/App.js src/StickersPage.js
+git commit -m "Test commit for SE timing and sticker list routing"
+git push origin main
+git statusgit commit --allow-empty -m "Test commit"git rm --cached -r .
+git add .
+git commit -m "Clear cache and rebuild"
+git push origin main
+git pull origin main --rebase
+git add <conflicted_file>
+git rebase --continue
+sudo git rm --cached <path-to-file>
+sudo chmod -R 755 <path-to-directory>
+git add .gitignore
+git rebase --continue
+sudo git pull origin main --rebase
+sudo chmod -R 777 [対象のディレクトリパス]
+git pull origin main --rebase
+git status
+git stash
+git stash pop
+git add .
+echo "Library/" >> .gitignore
+echo ".Trash/" >> .gitignore
+# 他に必要なディレクトリも追加
+git rm --cached Desktop/card-pack-app
+git add .
+git commit -m "作業中の変更をコミット"
+git rebase --continue
+ls Desktop
+git rm --cached Desktop/card-pack-app
+git submodule deinit -f Desktop/card-pack-app
+git rm -f Desktop/card-pack-app
+git commit -m "Remove card-pack-app submodule"
+rm -rf .git/modules/Desktop/card-pack-app
+git status
+nano .gitignore
+git add .gitignore
+git rebase --continue
+git commit -m "Resolve conflicts and remove card-pack-app submodule"
+git pull origin main --rebase
+git status
+git add .
+git commit -m "Staging unstaged changes"
+git rebase --continue
+git pull origin main --rebase
+nano .gitignore
+nano .gitignore
+git add .gitignore
+git rebase --continue
+nano .gitignore
+git add .gitignore
+git rebase --continue
+nano .gitignore
+sudo chmod -R 777 Downloads/Visual Studio Code.app/
+git rebase --continue
+git status
+git config --global user.name 'nozomuuu'
