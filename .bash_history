@@ -1,8 +1,3 @@
-git push origin master --force-with-lease
-git branch -a
-git push origin main --force-with-lease
-git checkout -b main
-git push origin main --set-upstream
 git checkout -b main
 git checkout -b main
 git push --set-upstream origin main
@@ -498,3 +493,8 @@ git add .gitignore
 git commit -m "Remove large files and update .gitignore"
 git push origin main --force
 git ls-files | grep 'Visual Studio Code'
+git rm --cached -r "Downloads/Visual Studio Code 3.app"
+git rm --cached -r "Downloads/Visual Studio Code 2.app"
+git add .
+git commit -m "Remove Visual Studio Code app files from the repository"
+git push origin main --force
