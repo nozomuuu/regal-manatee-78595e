@@ -1,2 +1,5 @@
 Library/
 Library/
+
+# Local Netlify folder
+.netlify

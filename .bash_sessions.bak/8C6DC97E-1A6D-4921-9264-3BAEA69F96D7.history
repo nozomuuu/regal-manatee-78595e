@@ -1,0 +1,9 @@
+git clean -fd
+git status
+git clean -fd
+git status
+git commit -am "Clean up submodule traces"
+git push origin main
+git log
+git reset --hard e91ae19840dbd9e212754e0d5f08fed2d74521bd
+git status

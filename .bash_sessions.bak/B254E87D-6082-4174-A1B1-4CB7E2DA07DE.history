@@ -1,0 +1,30 @@
+git clean -fd
+git status
+git clean -fd
+git status
+git commit -am "Clean up submodule traces"
+git push origin main
+git log
+git reset --hard e91ae19840dbd9e212754e0d5f08fed2d74521bd
+git status
+git reset --hard e91ae19840dbd9e212754e0d5f08fed2d74521bd
+git status
+git checkout e91ae1984
+git reset --hard e91ae1984
+git add .
+git status
+git commit -m "Restored missing files and resolved untracked issues"
+rm -f .git/hooks/post-checkout
+git status
+git add .
+git commit -m "Restoring files and resolving issues"
+git reset --hard e91ae1984
+git submodule deinit --force .bash_sessions/otakarakutasealwafercollection
+git rm -rf .git/modules/.bash_sessions/otakarakutasealwafercollection
+rm -rf .git/hooks/post-checkout
+git add .
+git commit -m "Restoring missing files and resolving untracked issues"
+git checkout <branch_name> # 例：git checkout main
+git branch
+git checkout main
+git log

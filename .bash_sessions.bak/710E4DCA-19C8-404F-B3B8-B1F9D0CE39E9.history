@@ -1,0 +1,6 @@
+git clean -fd
+git status
+git clean -fd
+git status
+git commit -am "Clean up submodule traces"
+git push origin main

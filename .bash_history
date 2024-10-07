@@ -1,333 +1,3 @@
-git lfs track "*.jpg"
-git add .gitattributes
-git add public/images/*.png
-git add public/images/*.jpg
-git commit -m "Track large files with LFS"
-git push origin main
-git lfs track "*.png"
-git lfs track "*.jpg"
-cat .gitattributes
-git add .gitattributes
-git add Public/images/*.png
-git add Public/images/*.jpg
-git commit -m "Track large files with LFS"
-git lfs track "*.png"
-git lfs track "*.jpg"
-cat .gitattributes
-git add .gitattributes
-git add Public/images/*.png
-git add Public/images/*.jpg
-git commit -m "Track large files with LFS"
-git push origin main
-git config http.postBuffer 524288000  # 500MBに増加
-git push origin main
-ping github.com
-sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
-ssh-keygen -t ed25519 -C "your_email@example.com"
-git remote -v
-git remote set-url origin git@github.com:nozomuuu/otakarakuta-sealwafercollection.git
-ssh -T git@github.com
-cat ~/.ssh/id_ed25519.pub
-cat ~/.ssh/id_ed25519.pub
-cat ~/.ssh/id_ed25519.pub
-ssh-keygen -t ed25519 -C "your_email@example.com"
-ssh-keygen -t ed25519 -C "your_email@example.com"
-cat ~/.ssh/id_ed25519.pub
-ssh -T git@github.com
-git remote set-url origin git@github.com:nozomuuu/otakarakuta-sealwafercollection.git
-git remote -v
-git push origin main
-ssh -T git@github.com
-git remote set-url origin git@github.com:nozomuuu/otakarakuta-sealwafercollection.git
-git remote -v
-git push origin main
-git config --global http.postBuffer 524288000
-git push origin main
-git lfs track "*.png" "*.jpg"
-git add .gitattributes
-git commit -m "Track large files with LFS"
-git config --global http.postBuffer 1048576000  # 1GB
-git push origin main
-git config --global core.compression 9
-git config --global http.postBuffer 1048576000  # 1GBに設定
-git add path/to/your/first-file-or-directory
-git commit -m "First batch of files"
-git push origin main
-git lfs install
-git lfs track "*.jpg"
-git lfs track "*.png"
-git add .gitattributes
-git add Public/images/*.jpg
-git add Public/images/*.png
-git lfs install
-git lfs track "*.jpg"
-git lfs track "*.png"
-git add .gitattributes
-git add Public/images/*.jpg
-git add Public/images/*.png
-git commit -m "Move large image files to LFS"
-git push origin main
-git lfs install
-git lfs track "*.jpg"
-git lfs track "*.png"
-git add .gitattributes
-git add Public/images/*.jpg
-git add Public/images/*.png
-git config --global http.postBuffer 1048576000  # 1GBに設定
-git commit -m "Move large image files to LFS"
-git push origin main
-git lfs install
-git lfs track "*.jpg"  # 追跡するファイルタイプを指定
-git add .gitattributes  # LFSの設定ファイルを追加
-git add .  # 変更をステージ
-git commit -m "Track large image files with LFS"  # コミット
-git push origin main  # プッシュ
-git add ファイル1.jpg ファイル2.jpg  # 2つのファイルを追加
-git commit -m "Add file1 and file2"  # コミット
-git push origin main  # プッシュ
-git add ファイル1.jpg ファイル2.jpg  # 2つのファイルを追加
-git commit -m "Add file1 and file2"  # コミット
-git push origin main  # プッシュ
-git lfs track "*.jpg"  # すべてのJPGファイルを追跡
-git add .gitattributes  # LFSの設定ファイルを追加
-git add *.jpg  # JPGファイルをステージング
-git commit -m "Add images to LFS"
-git push origin main  # プッシュ
-git status
-git add build/images/1.jpg build/images/2.jpg build/images/3.jpg build/images/4.jpg build/images/5.jpg
-git commit -m "Add first 5 images"
-git push origin main
-git config --global http.postBuffer 1048576000 # 1GBに設定
-git config --global lfs.concurrenttransfers 3
-git status
-git add build/images/1.jpg build/images/2.jpg build/images/3.jpg build/images/4.jpg build/images/5.jpg
-git commit -m "Add first 5 images"
-git push origin main
-git add build/images/1.jpg build/images/2.jpg build/images/3.jpg
-git commit -m "Add first 3 images"
-git push origin main
-git add build/images/1.jpg
-git commit -m "Add first image"
-git push origin main
-git config --global lfs.concurrenttransfers 1
-git add build/images/1.jpg
-git commit -m "Add first image"
-git push origin main
-git config --global http.postBuffer 157286400
-git lfs uninstall
-git add build/images/1.jpg
-git commit -m "Add first image"
-git push origin main
-git config --global http.postBuffer 2097152000 # 2GBに設定
-git add build/images/1.jpg build/images/2.jpg build/images/3.jpg build/images/4.jpg build/images/5.jpg
-git commit -m "Add first 5 images"
-git push origin main
-git commit -m "Remove unnecessary images"
-git push origin main
-git status
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch <path_to_large_file>' --prune-empty --tag-name-filter cat -- --all
-git add <ファイル1>
-git commit -m "Add ファイル1"
-git push origin main
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch build/images/large_image.jpg' --prune-empty --tag-name-filter cat -- --all
-rm -rf .git/refs/original/
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-echo "build/" >> .gitignore
-git add .gitignore
-git commit -m "Add build/ to .gitignore"
-git push origin main
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git lfs install
-git lfs track "*.jpg"  # 大きな画像ファイルをLFSでトラッキング
-git add .gitattributes  # LFS設定をコミットに追加
-git commit -m "Track large image files with LFS"
-git push origin main
-git lfs track "*.jpg"
-git lfs install
-git lfs status  # LFSに追跡されているファイルを確認
-git config --global http.postBuffer 157286400  # バッファサイズを150MBに設定
-git config --global lfs.concurrenttransfers 1  # LFSの並列転送を1つに制限
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch build/images/*.jpg' --prune-empty --tag-name-filter cat -- --all
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git reflog expire --expire-now --all
-git gc --prune=now --aggressive
-git lfs install # LFSをインストール
-git lfs track "*.jpg" # 大きな画像ファイルをLFSでトラッキング
-git add .gitattributes # LFSの設定をコミット
-git commit -m "Track large image files with LFS"
-git push origin main # プッシュを実行
-git push origin main
-git add .gitattributes  # LFS設定ファイルを追加
-git commit -m "Add .gitattributes file for LFS"
-git filter-repo --path-to-large-file <file_path>
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git lfs install
-git lfs track "*.jpg" # 大きな画像ファイルをLFSで管理
-git add .gitattributes
-git commit -m "Add .gitattributes for LFS"
-git rm --cached <path_to_large_file>
-git commit -m "Remove unnecessary large files"
-git filter-repo --path <path_to_large_file>
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git lfs status
-git push origin main
-git lfs track
-cat .gitattributes
-brew install git-filter-repo
-git filter-repo --path <path_to_large_file> --invert-paths
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-echo "node_modules/" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "public/" >> .gitignore
-echo "build/" >> .gitignore
-echo "Desktop/*.png" >> .gitignore
-git rm -r --cached node_modules/
-git rm --cached .DS_Store
-git add .gitignore
-git commit -m "Fix .gitignore and remove unnecessary files"
-git push origin main
-nano .gitignore
-nano .gitignore
-nano .gitignore
-git add .gitignore
-git commit -m "Fix .gitignore file"
-git push origin main
-git lfs track "*.jpg" "*.png"
-git add .gitattributes
-git commit -m "Track large image files with LFS"
-git lfs migrate import --include="*.jpg,*.png"
-git push origin main --force
-echo "*.save" >> .gitignore
-git add .gitignore
-git commit -m "Add .save files to gitignore"
-git lfs track "*.jpg" "*.png"
-git add .gitattributes
-git commit -m "Track large image files with LFS"
-git lfs migrate import --include="*.jpg,*.png"
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git gc --prune=now --aggressive --force
-git lfs ls-files
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git lfs ls-files
-git lfs migrate import --include="*.jpg,*.png"
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git lfs ls-files
-git lfs migrate import --include="*.jpg,*.png"
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-cat .gitattributes
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-git lfs migrate import --include="*.jpg,*.png"
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git lfs migrate import --include="*.jpg,*.png" --everything
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git verify-pack -v .git/objects/pack/*.idx | sort -k 3 -n | tail -5
-git lfs migrate import --include="*.jpg,*.png" --everything
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git push origin main --force
-git lfs migrate import --include="*.jpg,*.png" --everything
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git push origin main --force
-git lfs ls-files
-git lfs track "*.jpg" "*.png"
-git add .gitattributes
-git commit -m "Re-track large image files with LFS"
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force
-git config --global http.postBuffer 524288000
-git push origin main --force
-git lfs ls-files
-git lfs migrate import --include="*.jpg,*.png" --everything
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force-with-lease
-git filter-repo --path-to-strip "path_to_large_files"
-git filter-repo --path <path_to_large_file>
-git filter-repo --path build/images/large_image.jpg
-git filter-repo --path build/images/large_image.jpg --path build/images/other_large_image.jpg
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin main --force-with-lease
-git clone https://github.com/nozomuuw/otakarakuta-sealwafercollection.git
-cd otakarakuta-sealwafercollection
-git filter-repo --path build/images/large_image.jpg
-git filter-repo --path build/images/large_image.jpg --force
-git push origin main --force-with-lease
-git branch
-git push origin fix-branch --force-with-lease
-git checkout main
-git pull origin main
-git push origin main --force-with-lease
-git push origin fix-branch --force-with-lease
-git checkout main
-git pull origin main
-git push origin main --force-with-lease
-git remote -v
-git remote set-url origin https://github.com/nozomuuw/otakarakuta-sealwafercollection.git
-git push origin main --force-with-lease
-git remote add origin https://github.com/nozomuuw/otakarakuta-sealwafercollection.git
-git remote -v
-git push origin main --force-with-lease
-git branch
-git checkout -b main
-git push origin main --force-with-lease
-git remote -v
-git push --set-upstream origin main
-git branch -r
-git push origin main --force-with-lease
-git branch
-git checkout -b main
-git push --set-upstream origin main
-git push origin main --force-with-lease
-git branch -a
-git ls-remote --heads origin
-git checkout -b main
-git push origin main
-git push origin main
-git remote -v
-git remote set-url origin https://github.com/yourusername/your-repo.git
-git push origin main --force-with-lease
-git remote set-url origin https://github.com/nozomuuw/otakarakuta-sealwafercollection.git
-git remote -v
-git push origin main --force-with-lease
-git branch
-git checkout -b main
-git push origin main --force-with-lease
-git branch
-git push --set-upstream origin main
-git branch -r
-git branch
-git checkout -b main
-git remote -v
-git remote set-url origin https://github.com/nozomuu/otakarakuta-sealwafercollection.git
-git push --set-upstream origin main
-git push origin main --force-with-lease
-git ls-remote --heads origin
-git branch -m main master
 git push --set-upstream origin master
 git push origin master --force-with-lease
 git remote -v
@@ -498,3 +168,333 @@ echo 'Library/' >> .gitignore
 git add .gitignore
 git commit -m "Remove unnecessary system files and update .gitignore"
 git push -u origin main
+mv .bash_history .bash_history.bak
+mv .bash_sessions .bash_sessions.bak
+mv .lesshst .lesshst.bak
+git status
+rm .bash_history.bak .bash_sessions.bak .lesshst.bak
+git branch
+git checkout main
+mv .lesshst .lesshst.bak
+git checkout main
+git branch
+git log
+npm install
+npm run build
+cd /path/to/otakarakuta-collection
+npm install
+npm run build
+cd /path/to/otakarakuta-collection
+npm install
+npm run build
+npm install
+cd /path/to/otakarakuta-collection
+npm install
+npm run build
+cd /path/to/otakarakuta-collection
+npm install
+npm run build
+rm -rf node_modules package-lock.json
+npm install
+npm init
+npm install
+npm run build
+npm install react react-dom react-scripts
+npm run build
+npm run build
+rm -rf node_modules package-lock.json
+npm install
+npm run build
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+npm audit fix --force
+npm install react-scripts --save
+npm run build
+rm -rf node_modules package-lock.json
+npm install
+npm run build
+npm audit fix --force
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+npm run build
+npm init
+npm install
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+npx create-react-app otakarakuta-collection-new
+cd otakarakuta-collection-new
+npm start
+cp -R /path/to/otakarakuta-collection/src/* otakarakuta-collection-new/src/
+cp -R /path/to/otakarakuta-collection/public/* otakarakuta-collection-new/public/
+npm install
+npm start
+npm audit fix --force
+rm -rf node_modules package-lock.json
+npm install
+npm start
+rm -rf node_modules package-lock.json
+npm install
+npm start
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+npm audit fix --force
+npm cache clean --force
+rm -rf node_modules
+rm package-lock.json
+npm install
+npm start
+npm audit fix --force
+rm -rf node_modules package-lock.json
+npm install
+PORT=3001 npm start
+npm install react-scripts@4.0.3
+npm install
+npm start
+npm start
+npm install
+npm start
+npm install
+npm start
+npm install
+npm start
+npm install
+npm start
+npm install
+react-scripts
+npm start
+npm install
+npm start
+npm install
+npm install
+npm install react-scripts
+npm install
+npm start
+npm install
+npm start
+rm -rf node_modules package-lock.json
+npm install
+npm start
+npm install
+npm start
+npm list react-scripts
+npm start
+npm install
+npm install react-scripts
+node -v
+npm cache clean --force
+npm install
+npm start
+npm audit fix
+npm start
+rm -rf node_modules
+npm install
+npm list react-scripts
+npm audit fix --force
+npm start
+rm -rf node_modules
+npm install
+npm start
+npm ls react-scripts
+rm -rf node_modules
+npm install
+node -v
+npm -v
+npm start
+npm cache clean --force
+rm -rf node_modules
+npm install
+npm run
+npm install react-scripts@5.0.1
+nvm install 18
+nvm use 18
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
+nvm install 18
+nvm use 18
+npm ls react-scripts
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+nvm install 18
+nvm use 18
+npm cache clean --force
+rm -rf node_modules
+npm install
+npm start
+rm -rf node_modules
+npm install
+npm ls react-scripts
+nvm install 16
+nvm use 16
+npm cache clean --force
+npm start
+node -v
+npm -v
+cat /Users/shizhongxiwang/.npm/_logs/2024-10-06T17_28_58_651Z-debug-0.log
+pwd
+cd /Users/shizhongxiwang/otakarakuta-collection
+ls
+npm start
+nano package.json
+nano package.json
+npm start
+nano package.json
+nano package.json
+npm install
+npm start
+ls /Users/shizhongxiwang/public
+find /Users/shizhongxiwang -name "index.html"
+mkdir -p /Users/shizhongxiwang/otakarakuta-collection/public
+mv /Users/shizhongxiwang/otakarakuta-collection-new/public/index.html /Users/shizhongxiwang/otakarakuta-collection/public/
+cd /Users/shizhongxiwang/otakarakuta-collection
+npm start
+nano package.json
+npm start
+npm install
+npm start
+/Users/shizhongxiwang/otakarakuta-collection/public/index.html
+npm cache clean --force
+rm -rf node_modules
+npm install
+npm start
+npm cache clean --force
+rm -rf node_modules
+npm install
+npm start
+ls /Users/shizhongxiwang/otakarakuta-collection/public/index.html
+ls -l /Users/shizhongxiwang/otakarakuta-collection/public/index.html
+cat /Users/shizhongxiwang/otakarakuta-collection/public/index.html
+pm start
+npm start
+cd /Users/shizhongxiwang/otakarakuta-collection
+npm start
+npm start
+npm cache clean --force
+rm -rf node_modules
+npm install
+npm start
+nano /Users/shizhongxiwang/otakarakuta-collection/package.json
+npm start
+npm start
+nano /Users/shizhongxiwang/otakarakuta-collection/package.json
+nano /Users/shizhongxiwang/otakarakuta-collection/package.json
+npm start
+nano /Users/shizhongxiwang/otakarakuta-collection/package.json
+npm start
+ls /Users/shizhongxiwang/otakarakuta-collection/public
+npm start
+mv /Users/shizhongxiwang/otakarakuta-collection/public /Users/shizhongxiwang/public
+npm start
+ls /Users/shizhongxiwang/otakarakuta-collection/src
+npm start
+mv /Users/shizhongxiwang/public /Users/shizhongxiwang/otakarakuta-collection/public
+mv /Users/shizhongxiwang/src /Users/shizhongxiwang/otakarakuta-collection/src
+cd /Users/shizhongxiwang/otakarakuta-collection
+npm start
+npm start
+cd /Users/shizhongxiwang/otakarakuta-collection-new
+ls public/index.html
+ls src/index.js
+npm install
+npm start
+mkdir -p public
+cp /Users/shizhongxiwang/otakarakuta-collection/public/index.html public/
+npm start
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+npm run build
+ls /Users/shizhongxiwang/public/index.html
+cp /Users/shizhongxiwang/otakarakuta-collection-new/public/index.html /Users/shizhongxiwang/public/
+npm run build
+mkdir -p /Users/shizhongxiwang/public
+cp /Users/shizhongxiwang/otakarakuta-collection-new/public/index.html /Users/shizhongxiwang/public/
+npm run build
+ls /Users/shizhongxiwang/otakarakuta-collection-new/src/index.js
+npm run build
+cp /Users/shizhongxiwang/otakarakuta-collection-new/src/index.js /Users/shizhongxiwang/src/
+mkdir -p /Users/shizhongxiwang/src
+cp /Users/shizhongxiwang/otakarakuta-collection-new/src/index.js /Users/shizhongxiwang/src/
+npm run build
+cp /Users/shizhongxiwang/otakarakuta-collection-new/src/App.js /Users/shizhongxiwang/src/
+npm run build
+cp /Users/shizhongxiwang/otakarakuta-collection-new/src/index.css /Users/shizhongxiwang/src/
+npm run build
+cp /Users/shizhongxiwang/otakarakuta-collection-new/src/reportWebVitals.js /Users/shizhongxiwang/src/
+npm run build
+cp /Users/shizhongxiwang/otakarakuta-collection-new/src/App.css /Users/shizhongxiwang/src/
+npm run build
+cp /Users/shizhongxiwang/otakarakuta-collection-new/src/logo.svg /Users/shizhongxiwang/src/
+npm run build
+npm install -g serve
+serve -s build
+cd /Users/shizhongxiwang/otakarakuta-collection-new
+ls
+cd /Users/shizhongxiwang/otakarakuta-collection-new
+npm run build
+cd /Users/shizhongxiwang/otakarakuta-collection-new
+npm run build
+npm run build
+serve -s build
+npm cache clean --force
+cd /Users/shizhongxiwang/otakarakuta-collection-new
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <GitHubリポジトリのURL>
+git push -u origin main
+git branch -M main
+git push -u origin main
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C nzm1617@gmail.com
+ssh-keygen -t ed25519 -C "nzm1617@gmail.com"
+pbcopy < ~/.ssh/id_ed25519.pub
+ssh-keygen -t ed25519 -C "nzm1617@gmail.com"
+pbcopy < ~/.ssh/id_ed25519.pub
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+ssh -T git@github.com
+git push -u origin main
+git branch
+git push -u origin main
+git branch -r
+git branch -M main
+git branch -M main
+git push
+ssh -T git@github.com
+git branch -a
+git branch -a
+npm install netlify-cli -g
+netlify login
+netlify deploy
+netlify status
+netlify deploy
+netlify deploy
+netlify unlink
+netlify link
+netlify deploy
+npm run build
+netlify deploy --dir=build
+netlify deploy --prod
+netlify deploy --prod --dir=build
+git branch -a
+netlify status
+git remote -v
+netlify link
+git fetch origin
+git branch -a
+git branch -r
+netlify link
+netlify deploy --branch=main
+netlify deploy --prod --branch=main --dir=build
+git remote set-url origin git@github.com:yourusername/regal-manatee-78595e.git
+git remote set-url origin git@github.com:yourusername/regal-manatee-78595e.git
+git remote set-url origin git@github.com:nozomuuu/https://github.com/nozomuuu/regal-manatee-78595egit remote -v
+git push origin main
+git remote set-url origin git@github.com:nozomuuu/regal-manatee-78595e.git
+git remote -v
+git push origin main
