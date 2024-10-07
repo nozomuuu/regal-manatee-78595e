@@ -6,3 +6,5 @@ Library/
 Downloads/Firefox 131.0.dmg
 Downloads/VSCode-darwin-universal.zip
 Visual Studio Code.app/
+.bash_sessions/
+.bash_history
