@@ -1,59 +1,3 @@
-git checkout -b main
-git checkout -b main
-git push --set-upstream origin main
-git status
-git add .
-git push --set-upstream origin main
-git branch
-git checkout -b main
-git add .
-git push --set-upstream origin main
-git remote -v
-git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
-git push --set-upstream origin main
-git branch -a
-git checkout -b master
-git push origin master --force-with-lease
-git push --set-upstream origin master
-git ls-remote --heads origin
-git checkout -b main
-git push origin main --set-upstream
-git push origin master --force-with-lease
-git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
-git remote -v
-git checkout -b main
-git push origin main --set-upstream
-git ls-remote --heads origin
-git checkout -b master
-git push origin master --set-upstream
-git checkout -b main
-git push origin main --set-upstream
-git remote -v
-git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
-git push origin main --set-upstream
-git push origin master --set-upstream
-git branch -a
-git checkout -b main
-git add .
-git push origin main --set-upstream
-git add .
-git push origin main --set-upstream
-git push origin master --set-upstream
-git branch -a
-git checkout -b main
-git add .
-git commit -m "Initial commit"
-git push --set-upstream origin main
-git remote -v
-git remote -v
-git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
-git branch -a
-git checkout -b main
-git push --set-upstream origin main
-git ls-remote --heads origin
-git checkout -b master
-git push origin master --set-upstream
-git push --set-upstream origin main
 git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
 git remote -v
 git push --set-upstream origin main
@@ -498,3 +442,59 @@ git rm --cached -r "Downloads/Visual Studio Code 2.app"
 git add .
 git commit -m "Remove Visual Studio Code app files from the repository"
 git push origin main --force
+git rm --cached -r "Downloads/Visual Studio Code.app"
+Downloads/Visual Studio Code.app/
+git add .
+git commit -m "Remove large Visual Studio Code files"
+java -jar bfg.jar --delete-files "Electron Framework"
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+git rev-list --objects --all | grep $(git verify-pack -v .git/objects/pack/pack-*.idx | sort -k 3 -n | tail -10 | awk '{print$1}')
+java -jar bfg.jar --strip-blobs-bigger-than 100M
+java -jar bfg.jar --strip-blobs-bigger-than 100M
+cd ~/Downloads
+java -jar bfg-1.14.0.jar --strip-blobs-bigger-than 100M
+java -jar /Users/shizhongxiwang/Downloads/bfg-1.14.0.jar --strip-blobs-bigger-than 100M
+git push origin main --force
+java -jar bfg-1.14.0.jar --strip-blobs-bigger-than 100M ~/myproject
+cd ~/myproject
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+java -jar bfg-1.14.0.jar --strip-blobs-bigger-than 100M ~/myproject
+java -jar ~/Downloads/bfg-1.14.0.jar --strip-blobs-bigger-than 100M ~/myproject
+cd /path/to/your/repository
+pwd
+ls ~/
+cd ~/my-new-app
+ls -a
+cd ~/otakarakuta-collection
+ls -a
+cd ~/otakarakuta-collection-new
+ls -a
+java -jar ~/Downloads/bfg-1.14.0.jar --strip-blobs-bigger-than 100M ~/otakarakuta-collection-new
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+git push origin main --force
+git remote -v
+ssh -T git@github.com
+git push origin main --force
+git rm --cached "Downloads/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+git commit -m "Remove large Electron Framework file"
+java -jar ~/Downloads/bfg-1.14.0.jar --strip-blobs-bigger-than 100M ~/otakarakuta-collection-new
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+git rev-list --objects --all | grep "Electron Framework"
+git rm --cached "パス/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+git commit -m "Remove large Electron Framework file"
+git push origin main --force
+git rm --cached "Downloads/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+git commit -m "Remove large Electron Framework file"
+git push origin main --force
+git ls-files | grep "Electron Framework"
+git rm --cached "Downloads/Visual Studio Code 3.app/Contents/Frameworks/Electron Framework.framework/Electron Framework"
+git rm --cached "Downloads/Visual Studio Code 3.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libEGL.dylib"
+git rm --cached -r "Downloads/Visual Studio Code 3.app/Contents/Frameworks/Electron Framework.framework/"
+git commit -m "Remove large Electron Framework files"
+git push origin main --force
+git rm --cached "Downloads/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+git commit -m "Remove large Electron Framework file completely"
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
