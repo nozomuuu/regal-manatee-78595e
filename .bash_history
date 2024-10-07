@@ -1,26 +1,3 @@
-git push --set-upstream origin master
-git push origin master --force-with-lease
-git remote -v
-git remote set-url origin https://github.com/nozomuu/otakarakuta-sealwafercollection.git
-git remote set-url origin https://github.com/nozomuu/otakarakuta-sealwafercollection.git
-rm -rf <ローカルリポジトリのフォルダ>
-git clone https://github.com/nozomuu/otakarakuta-sealwafercollection.git
-git remote -v
-git remote set-url origin https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit remote -v
-git push origin main --force-with-lease
-https://github.com/nozomuu/otakarakutasealwafercollection.git
-git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
-git remote -v
-origin  https://github.com/nozomuu/otakarakutasealwafercollection.git (fetch)
-origin  https://github.com/nozomuu/otakarakutasealwafercollection.git (push)
-git push origin main --force-with-lease
-git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
-git remote -v
-origin  https://github.com/nozomuu/otakarakutasealwafercollection.git (fetch)
-origin  https://github.com/nozomuu/otakarakutasealwafercollection.git (push)
-git push origin main --force-with-lease
-git remote -v
-git branch -a
 git push origin master --force-with-lease
 git branch -a
 git push origin main --force-with-lease
@@ -498,3 +475,26 @@ git push origin main
 git remote set-url origin git@github.com:nozomuuu/regal-manatee-78595e.git
 git remote -v
 git push origin main
+brew install git-filter-repo
+git filter-repo --path 'Downloads/Firefox 131.0.dmg' --invert-paths
+git filter-repo --path 'Downloads/VSCode-darwin-universal.zip' --invert-paths
+git filter-repo --path 'Visual Studio Code.app/' --invert-paths
+git push origin main --force
+git remote -v
+git remote add origin git@github.com:nozomuuu/regal-manatee-78595e.git
+git push origin main --force
+git rm --cached -r 'Downloads/Visual Studio Code.app/'
+git status
+echo ".bash_sessions/" >> .gitignore
+echo ".bash_history" >> .gitignore
+git add .gitignore
+git add otakarakuta-collection-new otakarakutasealwafercollection
+git commit -m "Add .gitignore updates and other changes"
+git push origin main
+git rm --cached -r "Downloads/Visual Studio Code.app"
+git rm --cached "Downloads/VSCode-darwin-universal.zip"
+git rm --cached "Downloads/Firefox 131.0.dmg"
+git add .gitignore
+git commit -m "Remove large files and update .gitignore"
+git push origin main --force
+git ls-files | grep 'Visual Studio Code'
