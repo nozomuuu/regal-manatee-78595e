@@ -1,11 +1,3 @@
-git branch -a
-git checkout -b main
-git push -u origin main
-$git branch
-git checkout -b main
-git status
-git add .
-git commit -m "初期コミット"
 git push -u origin main
 git remote remove origin
 git remote add origin https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit remote -v
@@ -497,4 +489,12 @@ git commit -m "Add otakarakutasealwafercollection to .gitignore"
 git push origin main
 cp -r otakarakuta-collection otakarakuta-collection-new
 npm install
+npm start
+git commit -am "Fixed app functionality"
+git push origin main
+npm run build
+npm start
+npm run build
+npm start
+npm start
 npm start
