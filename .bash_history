@@ -1,62 +1,3 @@
-git remote set-url origin https://github.com/nozomuu/otakarakutasealwafercollection.git
-git remote -v
-git push --set-upstream origin main
-git push --set-upstream origin master
-git branch -a
-git checkout -b main
-git status
-git add .
-git branch -a
-git checkout -b main
-git status
-git add .
-git commit -m "Initial commit"
-git push --set-upstream origin main
-git push --set-upstream origin master
-git ls-remote --heads origin
-git checkout -b main
-git add .
-git commit -m "Initial commit"
-git push --set-upstream origin main
-git remote -v
-git remote -v
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-git branch
-git checkout -b main
-git status
-git add .
-git commit -m "初回のコミット"
-git push origin main --set-upstream
-git push origin master --set-upstream
-git push origin --delete ブランチ名
-git remote -v
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-git branch -a
-git push origin main --set-upstream
-git push origin master --set-upstream
-git branch
-git checkout -b main
-git add .
-git commit -m "初期コミット"
-git push origin main --set-upstream
-git branch -a
-git checkout -b main
-git checkout -b master
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-git remote -v
-git push origin main --set-upstream
-git branch -a
-git checkout -b main
-git remote -v
-git branch -a
-git checkout -b main
-git remote -v
-git remote set-url origin https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit push origin main --set-upstream
-git branch -a
-git checkout -b main
-git push -u origin main
-git remote -v
-git remote set-url origin https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit remote set-url origin https://github.com/nozomuuu/otakarakutasealwafercollection.git
 git branch -a
 git checkout -b main
 git push -u origin main
@@ -498,3 +439,62 @@ git push origin main --force
 git rm --cached "Downloads/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
 git commit -m "Remove large Electron Framework file completely"
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git ls-files | grep "Electron Framework"
+git rm --cached "正しいファイルパス"
+git add .
+git commit -m "Remove large files related to Electron Framework"
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+git rev-list --objects --all | grep "Electron Framework"
+git rm --cached "ファイルパス"
+git rm --cached "Downloads/Visual Studio Code 3.app/Contents/Frameworks/Electron Framework.framework/Electron Framework"
+git commit -m "Remove large Electron Framework files"
+java -jar ~/Downloads/bfg-1.14.0.jar --strip-blobs-bigger-than 100M .
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+[submodule ".bash_sessions.bak/otakarakutasealwafercollection"]
+path = .bash_sessions.bak/otakarakutasealwafercollection
+url = https://github.com/your-user/otakarakutasealwafercollection.git
+git submodule init
+git submodule update
+git rm --cached .bash_sessions.bak/otakarakutasealwafercollection
+rm -rf .bash_sessions.bak/otakarakutasealwafercollection
+git add .gitmodules
+git commit -m "Remove unnecessary submodule otakarakutasealwafercollection"
+git push origin main
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen -t rsa -b 4096 -C nzm1617@gmail.com
+cat ~/.ssh/id_rsa.pub
+git push origin main
+git submodule status
+git rm --cached .nvm
+rm -rf .nvm
+git commit -m "Remove unnecessary .nvm directory"
+git push origin main
+echo ".nvm/" >> .gitignore
+git add .gitignore
+git commit -m "Add .nvm to .gitignore"
+git push origin main
+git rm --cached otakarakuta-collect
+git rm --cached otakarakuta-collection-new
+rm -rf otakarakuta-collect
+rm -rf otakarakuta-collection-new
+cat .gitmodules
+git commit -m "Remove unnecessary submodules otakarakuta-collect and otakarakuta-collection-new"
+git push origin main
+echo "otakarakuta-collect/" >> .gitignore
+echo "otakarakuta-collection-new/" >> .gitignore
+git add .gitignore
+git commit -m "Add otakarakuta-collect and otakarakuta-collection-new to .gitignore"
+git push origin main
+git rm --cached otakarakutasealwafercollection
+rm -rf otakarakutasealwafercollection
+git commit -m "Remove unnecessary submodule otakarakutasealwafercollection"
+git push origin main
+echo "otakarakutasealwafercollection/" >> .gitignore
+git add .gitignore
+git commit -m "Add otakarakutasealwafercollection to .gitignore"
+git push origin main
+cp -r otakarakuta-collection otakarakuta-collection-new
+npm install
+npm start
