@@ -1,30 +1,3 @@
-git push -u origin main
-git remote remove origin
-git remote add origin https://github.com/nozomuuu/otakarakutasealwafercollection.gitgit remote -v
-git push -u origin main
-git remote remove origin
-git remote add origin https://github.com/nozomuu/otakarakutasealwafercollection.gitgit remote -v
-git branch
-git checkout -b main
-git commit -m "Initial commit"
-git push -u origin main
-git branch
-git checkout -b main
-git status
-git add .
-git rm --cached 'Library/Containers/804B922E-A618-49AE-9317-AC56CDEBC96C/.com.apple.containermanagerd.metadata.plist'
-echo 'Library/' >> .gitignore
-git add .gitignore
-git commit -m "Remove unnecessary system files and update .gitignore"
-git push -u origin main
-mv .bash_history .bash_history.bak
-mv .bash_sessions .bash_sessions.bak
-mv .lesshst .lesshst.bak
-git status
-rm .bash_history.bak .bash_sessions.bak .lesshst.bak
-git branch
-git checkout main
-mv .lesshst .lesshst.bak
 git checkout main
 git branch
 git log
@@ -498,3 +471,30 @@ npm run build
 npm start
 npm start
 npm start
+npm run build
+git add .
+git commit -m "Updated App.js with new image and sound paths"
+git push origin main
+git rm --cached .ssh/id_rsa
+git commit -m "Removed SSH private key"
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .ssh/id_rsa' --prune-empty --tag-name-filter cat -- --all
+git push origin main --force
+git status
+git add package.json
+git commit -m "Updated package.json with homepage and environment variable"
+git push origin main
+npm run build
+npm run build
+ls
+cd otakarakuta-collection-new
+ls
+"build": "react-scripts build"
+npm run build
+ls -la
+npm run build
+npm run build
+rm -rf node_modules
+rm -rf .cache
+npm install
+cd otakarakuta-collection-new
+npm run build
