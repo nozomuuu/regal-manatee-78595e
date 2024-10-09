@@ -1,7 +1,3 @@
-npm run build
-npm install react react-dom react-scripts
-npm run build
-npm run build
 rm -rf node_modules package-lock.json
 npm install
 npm run build
@@ -498,3 +494,7 @@ chmod 755 ~/.bfg-report
 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .ssh/id_rsa' --prune-empty --tag-name-filter cat -- --all
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push origin main --force
+git add .
+git commit -m "Staging changes before filter-branch"
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .ssh/id_rsa' --prune-empty --tag-name-filter cat -- --all
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
