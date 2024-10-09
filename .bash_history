@@ -1,25 +1,3 @@
-git checkout main
-git branch
-git log
-npm install
-npm run build
-cd /path/to/otakarakuta-collection
-npm install
-npm run build
-cd /path/to/otakarakuta-collection
-npm install
-npm run build
-npm install
-cd /path/to/otakarakuta-collection
-npm install
-npm run build
-cd /path/to/otakarakuta-collection
-npm install
-npm run build
-rm -rf node_modules package-lock.json
-npm install
-npm init
-npm install
 npm run build
 npm install react react-dom react-scripts
 npm run build
@@ -498,3 +476,25 @@ rm -rf .cache
 npm install
 cd otakarakuta-collection-new
 npm run build
+git add .
+git commit -m "Updated package.json with correct homepage path"
+git push origin main
+git rm --cached .ssh/id_rsa
+git commit -m "Remove .ssh/id_rsa from the repository"
+git push origin main
+bfg --delete-files '.ssh/id_rsa'
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+bfg --delete-files 'id_rsa'
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+mkdir ~/.bfg-report
+chmod 755 ~/.bfg-report
+bfg --delete-files 'id_rsa'
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
+mkdir ~/.bfg-report
+chmod 755 ~/.bfg-report
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .ssh/id_rsa' --prune-empty --tag-name-filter cat -- --all
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push origin main --force
